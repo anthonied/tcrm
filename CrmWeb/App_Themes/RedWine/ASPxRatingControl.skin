@@ -1,0 +1,5 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrc" Namespace="DevExpress.Web.ASPxRatingControl" Assembly="DevExpress.Web.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxrc:ASPxRatingControl runat="server" ImageMapUrl="~/App_Themes/RedWine/Web/rcMapImage.png" ItemWidth="31" ItemHeight="31">
+</dxrc:ASPxRatingControl>

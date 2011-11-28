@@ -1,0 +1,193 @@
+﻿
+.textboxBorder
+{
+ border:1px solid black;
+ font-family: Calibri;
+ font-size:12px; 	
+ width:140px; 
+}
+
+.a_audit
+{
+	color:Blue;
+	font-family: Calibri;
+	font-style:italic;
+	font-size:12px;	
+}
+
+.textboxBorderRO
+{
+ border:1px solid black;
+ font-family: Calibri;
+ font-size:12px; 
+ width:140px; 	
+ background-color:LightGrey; 
+}
+
+.holder_table
+{
+	
+}
+
+.std_dropdown
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 12px;
+	
+	width:140px
+}
+
+.btn_submit
+{
+	border-color: #999999 #666666 #666666 #999999;
+	border-style: solid;
+	border-width: 1px;
+	color:#333333; 
+	
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 12px;	
+	background-color:#D94246; 		
+}
+
+.btn_clear
+{
+	border-color: #999999 #666666 #666666 #999999;
+	border-style: solid;
+	border-width: 1px;
+	color:#333333; 
+	
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 12px;	
+	background-color:#D94246; 		
+}
+
+.btn_delete
+{
+	border-color: #999999 #666666 #666666 #999999;
+	border-style: solid;
+	border-width: 1px;
+	color:#333333; 
+	
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 12px;	
+	background-color:#FFCCCC; 		
+}
+
+.header_table
+{
+	
+}
+
+.comments
+{
+	border:1px solid black;
+	font-family: Calibri;
+	font-size:12px; 
+	height: 95px
+}
+
+.std_chkbox
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 12px;	
+}
+
+upload_div
+{
+	border: 1px solid #666;
+	width: 300px;	
+}
+
+div.scroll {
+height: 180px;
+width: 400px;
+overflow: auto;
+border: 1px solid #666;
+background-color: #ccc;
+padding: 8px;
+}
+
+div.scroll_task {
+height: 240px;
+width: 400px;
+overflow: auto;
+border: 1px solid #666;
+background-color: #ccc;
+padding: 8px;
+}
+
+.sticky {
+  -webkit-box-shadow: #DDD 0px 1px 2px;
+  position: relative;
+  background-color: #F4F39E;
+  border-color: #DEE184;
+  text-align: center;
+  margin: 2.5em 0px;
+  padding: 1.5em 1em;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  font-family: Chalkboard, 'Comic Sans';
+}
+
+.sticky.taped:after {
+  display: block;
+  content: "";
+  position: absolute; 
+  width: 110px;
+  height: 20px;
+  top: -11px;
+  left: 30%;    
+  border: 1px solid #fff;
+  background: rgba(254, 254, 254, .6);
+  -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+  box-shadow: 0px 0 3px rgba(0,0,0,0.1);   
+   
+}
+
+
+.more_link 
+{			
+	background: url(images/icons/drop-arrow.png) no-repeat left center;	
+	cursor:pointer;	
+	vertical-align:middle;
+	height:20px;	
+	width:140px;	
+	
+	text-align:left;
+	font-size:11px;
+	font-family:Lucida Grande, sans-serif;
+	color: #999999;		
+}
+
+.more_link a 	
+{		
+	margin-left:20px;				
+}
+
+.view
+{
+		
+}
+
+.task_header
+{	
+	border-bottom: solid 1px LightSteelBlue;
+	border-right: solid 1px LightSteelBlue;
+	border-left: solid 1px LightSteelBlue;
+	border-top: solid 1px LightSteelBlue;
+}
+
+.GridNormalRow td, .GridAlternate td
+{
+    padding-left: 5px;
+}
+
+
+

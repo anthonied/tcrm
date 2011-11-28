@@ -1,0 +1,496 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="New_Clients.aspx.cs" Inherits="pages_New_Clients" %>
+
+<%@ Register Assembly="DevExpress.Web.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxTabControl" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxClasses" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v10.2, Version=10.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxPopupControl" TagPrefix="dx" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type="text/javascript">
+        // <![CDATA[
+        function ShowEditSitesPopup() {
+            popupEditSites.Show();
+        }
+        function ShowEditForemenPopup() {
+            popupEditForemen.Show();
+        }
+            // ]]>
+    </script>
+    <title>New clients</title>
+</head>
+<body>
+    <div>
+        
+        <form id="frmNewClients" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:DropDownList ID="ddNewClients" runat="server" AutoPostBack="True" DataValueField="PKiNewClientID"
+            DataTextField="sNewClientName" Width="350px" OnSelectedIndexChanged="ddNewClients_SelectedIndexChanged">
+        </asp:DropDownList>
+        <asp:Button ID="btnClientFinder" runat="server" OnClick="btnClientFinder_Click" Text="Find"
+            Style="margin-right: 20px;" />
+        <asp:Button ID="btnNewClient" runat="server" OnClick="btnNewClient_Click" Text="New" />
+        <asp:Button ID="btnEditClient" runat="server" OnClick="btnEditClient_Click" Text="Edit" />
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClientClick="ShowEditSitesPopup();" />
+        <dx:ASPxPageControl ID="pageClientData" runat="server" ActiveTabIndex="0" ClientIDMode="AutoID"
+            CssFilePath="~/App_Themes/RedWine/{0}/styles.css" CssPostfix="RedWine" Height="336px"
+            SpriteCssFilePath="~/App_Themes/RedWine/{0}/sprite.css" TabSpacing="3px" 
+            Width="785px">
+            <TabPages>
+                <dx:TabPage Name="tabClient" Text="Client">
+                    <ContentCollection>
+                        <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
+                            <table>
+                                <tr>
+                                    <td height="25px">
+                                        Client Name:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtNewClientName" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Contact Person:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtNewClientContactPerson" class="textBoxBorder"
+                                            size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Telephone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtNewClientTelephone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Cellphone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtNewClientCellphone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Email:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtNewClientEmail" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                            </table>
+                        </dx:ContentControl>
+                    </ContentCollection>
+                </dx:TabPage>
+                <dx:TabPage Name="tabConsultingEng" Text="Consulting Engineer">
+                    <ContentCollection>
+                        <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
+                            <table>
+                                <tr>
+                                    <td height="25px">
+                                        Firm Name:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtCEFirmName" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Contact Person:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtCEContactPerson" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Telephone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtCETelephone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Cellphone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtCECellphone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Email:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtCEEmail" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                            </table>
+                        </dx:ContentControl>
+                    </ContentCollection>
+                </dx:TabPage>
+                <dx:TabPage Name="tabProjectManager" Text="Project Manager">
+                    <ContentCollection>
+                        <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
+                            <table>
+                                <tr>
+                                    <td height="25px">
+                                        Firm Name:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtPMFirmName" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Contact Person:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtPMContactPerson" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Telephone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtPMTelephone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Cellphone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtPMCellphone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Email:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtPMEmail" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                            </table>
+                        </dx:ContentControl>
+                    </ContentCollection>
+                </dx:TabPage>
+                <dx:TabPage Name="tabContractor" Text="Contractor">
+                    <ContentCollection>
+                        <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
+                            <table>
+                                <tr>
+                                    <td height="25px">
+                                        Firm Name:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtContractorFirmName" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Contact Person:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtContractorContactPerson" class="textBoxBorder"
+                                            size="100" ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Telephone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtContractorTelephone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Cellphone:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtContractorCellphone" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25px">
+                                        Email:&nbsp;
+                                    </td>
+                                    <td height="25px">
+                                        <asp:TextBox runat="server" ID="txtContractorEmail" class="textBoxBorder" size="100"
+                                            ReadOnly="true"></asp:TextBox>
+                                    </td>
+                                </tr>
+                            </table>
+                        </dx:ContentControl>
+                    </ContentCollection>
+                </dx:TabPage>
+                <dx:TabPage Name="tabSites" Text="Sites">
+                    <ContentCollection>
+                        <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
+                            Select a site:&nbsp;
+                            <asp:GridView ID="gvNewSites" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                                ForeColor="#333333" GridLines="None" Height="133px" Width="747px">
+                                <AlternatingRowStyle BackColor="White" />
+                                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                                <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                                <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                                <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                                <SortedDescendingHeaderStyle BackColor="#820000" />
+                            </asp:GridView>
+                            Select a foreman: &nbsp;
+                            <asp:GridView ID="gvNewForemen" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                                ForeColor="#333333" GridLines="None" Height="133px" Width="747px">
+                                <AlternatingRowStyle BackColor="White" />
+                                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                                <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                                <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                                <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                                <SortedDescendingHeaderStyle BackColor="#820000" />
+                            </asp:GridView>
+                        </dx:ContentControl>
+                    </ContentCollection>
+                </dx:TabPage>
+            </TabPages>
+            <LoadingPanelImage Url="~/App_Themes/RedWine/Web/Loading.gif">
+            </LoadingPanelImage>
+            <Paddings Padding="2px" PaddingLeft="5px" PaddingRight="5px" />
+            <ContentStyle>
+                <Border BorderColor="#A74768" BorderStyle="Solid" BorderWidth="1px" />
+            </ContentStyle>
+        </dx:ASPxPageControl>
+        <p>
+            &nbsp;<asp:Button ID="btnUpdateClient" runat="server" Text="Update" OnClick="btnUpdateClient_Click"
+                Visible="false" />
+        </p>
+        <dx:ASPxPopupControl ID="popupEditSites" runat="server" ClientIDMode="AutoID" DragElement="Header"
+            CssFilePath="~/App_Themes/RedWine/{0}/styles.css" CssPostfix="RedWine" LoadingPanelImagePosition="Top"
+            Modal="True" CloseAction="CloseButton" SpriteCssFilePath="~/App_Themes/RedWine/{0}/sprite.css"
+            PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
+            Style="margin-top: 0px; margin-right: 0px;" HeaderText="Site Editor">
+            <LoadingPanelImage Url="~/App_Themes/RedWine/Web/Loading.gif">
+            </LoadingPanelImage>
+            <ContentStyle VerticalAlign="Top">
+            </ContentStyle>
+            <ContentCollection>
+                <dx:PopupControlContentControl runat="server" SupportsDisabledAttribute="True">
+                    <table>
+                        <tr>
+                            <td height="25px">
+                                Site Name:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteName" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Type:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:DropDownList runat="server" ID="ddSiteType" class="textBoxBorder" width="200" Enabled="false"></asp:DropDownList>                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Contractor:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteContractor" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Telephone:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteTelephone" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Fax:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteFax" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Phys. Address 1:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtPhysAddress1" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Phys. Address 2:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtPhysAddress2" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Phys. Address 3:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtPhysAddress3" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Phys. Address 4:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtPhysAddress4" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Email:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteEmail" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Area:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteArea" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td height="25px">
+                                Contract Worth:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteContractValue" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Start Date:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteStartDate" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                <asp:CalendarExtender ID="txtSiteStartDate_CalendarExtender" runat="server" 
+                                    Enabled="True" TargetControlID="txtSiteStartDate">
+                                </asp:CalendarExtender>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                End Date:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteEndDate" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                                <asp:CalendarExtender ID="txtSiteEndDate_CalendarExtender" runat="server" 
+                                    Enabled="True" TargetControlID="txtSiteEndDate">
+                                </asp:CalendarExtender>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                GPS Coordinates:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtSiteGPSCoordinates" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                    </table>                    
+                    <asp:Button runat="server" ID="closeEditSitesPopup" OnClientClick="popupEditSites.Hide();"
+                        Text="Close" />
+                </dx:PopupControlContentControl>
+            </ContentCollection>
+        </dx:ASPxPopupControl>
+        <dx:ASPxPopupControl ID="popupEditForemen" runat="server" ClientIDMode="AutoID" DragElement="Header"
+            CssFilePath="~/App_Themes/RedWine/{0}/styles.css" CssPostfix="RedWine" LoadingPanelImagePosition="Top"
+            Modal="True" CloseAction="CloseButton" SpriteCssFilePath="~/App_Themes/RedWine/{0}/sprite.css"
+            PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
+            Style="margin-top: 0px; margin-right: 0px;" HeaderText="Foreman Editor">
+            <LoadingPanelImage Url="~/App_Themes/RedWine/Web/Loading.gif">
+            </LoadingPanelImage>
+            <ContentStyle VerticalAlign="Top">
+            </ContentStyle>
+            <ContentCollection>
+                <dx:PopupControlContentControl ID="PopupControlContentControl1" runat="server" SupportsDisabledAttribute="True">
+                    <table>
+                        <tr>
+                            <td height="25px">
+                                Foreman Name:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtForemanName" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Telephone:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtForemanTelephone" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Cellphone:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtForemanCellphone" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="25px">
+                                Email:&nbsp;
+                            </td>
+                            <td height="25px">
+                                <asp:TextBox runat="server" ID="txtForemanEmail" class="textBoxBorder" size="100" ReadOnly="true"></asp:TextBox>
+                            </td>
+                        </tr>                       
+                    </table>                    
+                    <asp:Button runat="server" ID="btnCloseEditForemenPopup" OnClientClick="popupEditForemen.Hide();"
+                        Text="Close" />
+                </dx:PopupControlContentControl>
+            </ContentCollection>
+        </dx:ASPxPopupControl>
+        </form>
+        
+    </div>
+</body>
+</html>

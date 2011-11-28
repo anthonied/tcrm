@@ -1,0 +1,10 @@
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\PastelCrmDataPump.DataPump.resources
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\PastelCrmDataPump.Properties.Resources.resources
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\bin\Debug\PastelCrmDataPump.exe.config
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\bin\Debug\PastelCrmDataPump.exe
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\bin\Debug\PastelCrmDataPump.pdb
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\PastelCrmDataPump.exe
+C:\Development\Projects\Talisman\CRM\PastelCrmDataPump\obj\x86\Debug\PastelCrmDataPump.pdb

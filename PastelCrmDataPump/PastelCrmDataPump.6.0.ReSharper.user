@@ -1,0 +1,57 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:App.config" caret="274" fromTop="7" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/d:Classes/f:Connect.cs" caret="601" fromTop="20" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:DataPump.cs" caret="473" fromTop="18" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:Program.cs" caret="486" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/d:Classes/f:Connect.cs" caret="182" fromTop="6" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/d:Classes/f:Connect.cs" caret="742" fromTop="26" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/d:Classes/f:Connect.cs" caret="263" fromTop="11" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/d:Classes/f:Connect.cs" caret="486" fromTop="18" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:App.config" caret="267" fromTop="7" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:DataPump.cs" caret="462" fromTop="17" />
+      <File id="740FEA94-AAD9-49AF-90F7-8D6C5654FDCD/f:Program.cs" caret="486" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="using" priority="61" />
+      <Item value="Pervasive" priority="30" />
+      <Item value="Data" priority="53" />
+      <Item value="SqlClient" priority="53" />
+      <Item value="System" priority="30" />
+      <Item value="SqlConnection`0" priority="31" />
+      <Item value="Message`0" priority="31" />
+      <Item value="MessageBox`0" priority="26" />
+      <Item value="ConnectionState`0" priority="31" />
+      <Item value="DataPump" priority="29" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PastelCrmDataPump.Classes.Connect">
+      <Item value="GetConnectionStringByName`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

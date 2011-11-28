@@ -1,0 +1,5457 @@
+/* -- ASPxCallbackPanel -- */
+.dxcpLoadingPanel_RedWine,
+.dxcpLoadingPanelWithContent_RedWine
+{
+	font: 9pt Tahoma;
+	color: #767676;
+}
+.dxcpLoadingPanelWithContent_RedWine 
+{
+    background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxcpLoadingPanel_RedWine td.dx,
+.dxcpLoadingPanelWithContent_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+} 
+.dxcpLoadingDiv_RedWine
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Disabled */
+.dxcpDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxCloudControl -- */
+.dxccControl_RedWine a:hover
+{
+    text-decoration: underline;
+}
+.dxccControl_RedWine a
+{
+	text-decoration: none;
+	color: #8A0A37;
+}
+.dxccControl_RedWine
+{
+	font-family: Tahoma, Verdana, Arial;
+	text-decoration: none;
+	color: #8A0A37;
+	background-color: #FFFFFF;
+}
+/* Disabled */
+.dxccDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_RedWine
+{
+	font: 10px Tahoma;
+	color: #000000;
+}
+.dxdvControl_RedWine td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvLoadingPanel_RedWine
+{
+    font: 9pt Tahoma;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxdvLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxdvContent_RedWine
+{
+    padding: 20px 20px 20px 20px;
+    border-top: Solid 1px #BC758E;
+    border-bottom: Solid 1px #BC758E;    
+}
+.dxdvItem_RedWine,
+.dxdvFlowItem_RedWine
+{
+	font: 9pt Tahoma;
+	color: #B5486D;
+	border: Solid 1px #D5D5D5;
+	background-color: #EBEBEB;
+	padding: 20px;
+	height: 180px;
+	/*if IE*/	
+	height:expression("154px");
+}
+.dxdvFlowItem_RedWine
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_RedWine
+{
+}
+.dxdvEmptyItem_RedWine
+{
+	font: 9pt Tahoma;
+	color: #B5486D;
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	/*if IE*/
+	height:expression("154px");
+}
+.dxdvPagerPanel_RedWine
+{
+    padding-top: 9px;
+    padding-bottom: 7px;
+    background-color: #F5ECF1;
+}
+.dxdvEmptyData_RedWine
+{
+	color: #E1ABBE;
+	padding: 12px 40px 12px 40px;
+}
+/* Disabled */
+.dxdvDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #000000;
+}
+.dxhlContent_RedWine
+{
+    line-height: 120%!important;
+    font-family: Tahoma;
+    font-size: 9pt;
+	color: #000000;
+} 
+.dxhlDate_RedWine
+{
+	color: #8A0A37;
+	white-space: nowrap;
+	font-family: Tahoma;
+    font-size: 7pt;
+}
+.dxhlHeader_RedWine
+{
+	color: #8A0A37;
+	font-weight: normal;
+    line-height: 121%!important;
+    font-size: 12pt;
+    font-family: Tahoma;
+}
+.dxhlDateHeader_RedWine
+{
+    font-size: 7pt;
+    line-height: 121%!important;
+	color: #FFFFFF;
+	white-space: nowrap;
+	background-color: #8A0A37;
+	font-weight: normal;
+	padding: 3px 5px 3px 5px;
+}
+.dxhlLeftPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #000000;
+	line-height: 121%!important;
+    text-align: right;
+}
+.dxhlRightPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #000000;
+	line-height: 121%!important;
+}
+.dxhlLeftPanel_RedWine img,
+.dxhlRightPanel_RedWine img 
+{
+    margin-top: 5px;
+    border: Solid 1px #8A0A37!important;
+}
+
+.dxhlDateLeftPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #8A0A37;
+	white-space: nowrap;
+}
+.dxhlDateRightPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #8A0A37;
+	white-space: nowrap;
+}
+.dxhlTailDiv_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+}
+.dxhlTailDiv_RedWine a
+{
+	color: #8A0A37;
+}
+.dxhlTailDiv a:hover
+{
+    color: #BE458B;
+}
+.dxhlTailDiv_RedWine a:visited
+{
+    color: #928489;
+}
+.dxhlContent_RedWine a.dxhl
+{
+	color: #8A0A37;
+} 
+.dxhlContent_RedWine a.dxhl:hover
+{
+    color: #BE458B;
+}
+.dxhlContent_RedWine a.dxhl:visited
+{
+    color: #928489;
+}
+/* Disabled */
+.dxhlDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxlpLoadingPanel_RedWine  td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxlpLoadingDiv_RedWine 
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu -- */
+.dxmControl_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #000000;
+}
+.dxmControl_RedWine a,
+.dxmMenu_RedWine a,
+.dxmVerticalMenu_RedWine a,
+.dxmSubMenu_RedWine a
+{
+	color: #000000;
+	text-decoration: none;
+}
+.dxmLoadingPanel_RedWine
+{
+	font: 9pt Tahoma;
+	color: #767676;
+}
+.dxmLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 6px;
+}
+.dxmMenu_RedWine,
+.dxmVerticalMenu_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	background-color: #F27AA4;
+	border: Solid 1px #8A0A37;
+	padding: 1px;
+}
+.dxmMenu_RedWine
+{
+	background-image: url('mBackT.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmVerticalMenu_RedWine
+{
+    background-color: #F5ECF1;
+    padding: 4px;
+}
+.dxmMenuGutter_RedWine,
+.dxmMenuRtlGutter_RedWine
+{
+}
+
+.dxmMenuSeparator_RedWine .dx,
+.dxmMenuFullHeightSeparator_RedWine .dx 
+{
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+.dxmMenuSeparator_RedWine,
+.dxmMenuFullHeightSeparator_RedWine
+{
+	width: 1px;
+}
+
+.dxmMenuSeparator_RedWine .dx,
+.dxmMenuFullHeightSeparator_RedWine
+{
+	background: transparent url('mSeparator.gif') center center repeat-y;
+	width: 2px;
+}
+.dxmMenuSeparator_RedWine .dx
+{
+	height: 14px;
+}
+.dxmMenuFullHeightSeparator_RedWine
+{
+	display: none;
+}
+.dxmMenuVerticalSeparator_RedWine
+{
+	background: transparent url('mVerticalSeparator.gif') center center repeat-x;
+	width: 100%;
+	height: 1px;
+}
+
+.dxmMenuItem_RedWine,
+.dxmMenuItemWithImage_RedWine,
+.dxmMenuItemWithPopOutImage_RedWine,
+.dxmMenuItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuItem_RedWine,
+.dxmVerticalMenuItemWithImage_RedWine,
+.dxmVerticalMenuItemWithPopOutImage_RedWine,
+.dxmVerticalMenuItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItem_RedWine,
+.dxmVerticalMenuRtlItemWithImage_RedWine,
+.dxmVerticalMenuRtlItemWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItem_RedWine,
+.dxmMenuLargeItemWithImage_RedWine,
+.dxmMenuLargeItemWithPopOutImage_RedWine,
+.dxmMenuLargeItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItem_RedWine,
+.dxmVerticalMenuLargeItemWithImage_RedWine,
+.dxmVerticalMenuLargeItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItem_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImage_RedWine,
+.dxmVerticalMenuLargeRtlItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageWithPopOutImage_RedWine
+{
+	font: 9pt Tahoma;
+	white-space: nowrap;
+}
+.dxmMenuItem_RedWine,
+.dxmMenuItemWithImage_RedWine,
+.dxmMenuItemWithPopOutImage_RedWine,
+.dxmMenuItemWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItem_RedWine,
+.dxmMenuLargeItemWithImage_RedWine,
+.dxmMenuLargeItemWithPopOutImage_RedWine,
+.dxmMenuLargeItemWithImageWithPopOutImage_RedWine
+{
+	color: #FFFFFF;
+	background-color: #F27AA4;
+
+	background-image: url('mItemBackT.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmMenuItem_RedWine a,
+.dxmMenuItemWithImage_RedWine a,
+.dxmMenuItemWithPopOutImage_RedWine a,
+.dxmMenuItemWithImageWithPopOutImage_RedWine a,
+.dxmMenuLargeItem_RedWine a,
+.dxmMenuLargeItemWithImage_RedWine a,
+.dxmMenuLargeItemWithPopOutImage_RedWine a,
+.dxmMenuLargeItemWithImageWithPopOutImage_RedWine a
+{
+	color: #FFFFFF;
+}
+.dxmVerticalMenuItem_RedWine,
+.dxmVerticalMenuItemWithImage_RedWine,
+.dxmVerticalMenuItemWithPopOutImage_RedWine,
+.dxmVerticalMenuItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItem_RedWine,
+.dxmVerticalMenuRtlItemWithImage_RedWine,
+.dxmVerticalMenuRtlItemWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItem_RedWine,
+.dxmVerticalMenuLargeItemWithImage_RedWine,
+.dxmVerticalMenuLargeItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItem_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImage_RedWine,
+.dxmVerticalMenuLargeRtlItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageWithPopOutImage_RedWine
+{
+	color: #000000;
+	background-color: #F5ECF1;
+}
+.dxmMenuItem_RedWine,
+.dxmMenuItemWithImage_RedWine
+{
+	padding: 4px 10px 5px;
+}
+.dxmMenuItemWithPopOutImage_RedWine,
+.dxmMenuItemWithImageWithPopOutImage_RedWine
+{
+	padding: 4px 10px;
+}	
+.dxmVerticalMenuItem_RedWine
+{
+	padding: 5px 13px 6px 8px;
+}
+.dxmVerticalMenuRtlItem_RedWine
+{
+	padding: 5px 8px 6px 13px;
+}
+.dxmVerticalMenuItemWithImage_RedWine
+{
+	padding: 5px 13px 6px 5px;
+}
+.dxmVerticalMenuRtlItemWithImage_RedWine
+{
+	padding: 5px 5px 6px 13px;
+}
+.dxmVerticalMenuItemWithPopOutImage_RedWine
+{
+	padding: 5px 4px 6px 8px;
+}
+.dxmVerticalMenuRtlItemWithPopOutImage_RedWine
+{
+	padding: 5px 8px 6px 4px;
+}
+.dxmVerticalMenuItemWithImageWithPopOutImage_RedWine
+{
+	padding: 5px 4px 6px 5px;
+}
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_RedWine
+{
+	padding: 5px 5px 6px 4px;
+}
+.dxmMenuLargeItem_RedWine,
+.dxmMenuLargeItemWithImage_RedWine
+{
+	padding: 4px 23px 4px 22px;
+}
+.dxmMenuLargeItemWithPopOutImage_RedWine,
+.dxmMenuLargeItemWithImageWithPopOutImage_RedWine
+{
+	padding: 4px 17px 4px 22px;
+}
+.dxmVerticalMenuLargeItem_RedWine,
+.dxmVerticalMenuLargeItemWithImage_RedWine
+{
+	padding: 7px 16px 8px 13px;
+}
+.dxmVerticalMenuLargeRtlItem_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImage_RedWine
+{
+	padding: 7px 13px 8px 16px;
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine
+{
+	padding: 7px 3px 8px 13px;
+}
+.dxmVerticalMenuLargeRtlItemWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageWithPopOutImage_RedWine
+{
+	padding: 7px 13px 8px 3px;
+}
+.dxmMenuItemDropDownButton_RedWine,
+.dxmMenuLargeItemDropDownButton_RedWine,
+.dxmMenuRtlItemDropDownButton_RedWine,
+.dxmMenuLargeRtlItemDropDownButton_RedWine
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.dxmVerticalMenuItemDropDownButton_RedWine,
+.dxmVerticalMenuLargeItemDropDownButton_RedWine
+{
+	padding-right: 4px;
+	padding-left: 1px;
+}
+.dxmVerticalMenuRtlItemDropDownButton_RedWine,
+.dxmVerticalMenuLargeRtlItemDropDownButton_RedWine
+{
+	padding-right: 1px;
+	padding-left: 4px;
+}
+.dxmMenuItemSelected_RedWine,
+.dxmMenuItemSelectedWithImage_RedWine,
+.dxmMenuItemSelectedWithPopOutImage_RedWine,
+.dxmMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuItemSelected_RedWine,
+.dxmVerticalMenuItemSelectedWithImage_RedWine,
+.dxmVerticalMenuItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemSelected_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithImage_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemSelected_RedWine,
+.dxmMenuLargeItemSelectedWithImage_RedWine,
+.dxmMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemSelected_RedWine,
+.dxmVerticalMenuLargeItemWithImageSelected_RedWine,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemSelected_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageSelected_RedWine,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_RedWine
+{
+	border: Solid 1px #8A0A37;
+}
+.dxmMenuItemSelected_RedWine,
+.dxmMenuItemSelectedWithImage_RedWine,
+.dxmMenuItemSelectedWithPopOutImage_RedWine,
+.dxmMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemSelected_RedWine,
+.dxmMenuLargeItemSelectedWithImage_RedWine,
+.dxmMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_RedWine
+{
+	background-color: #CB4F7B;
+
+	background-image: url('mItemSBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmVerticalMenuItemSelected_RedWine,
+.dxmVerticalMenuItemSelectedWithImage_RedWine,
+.dxmVerticalMenuItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemSelected_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithImage_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemSelected_RedWine,
+.dxmVerticalMenuLargeItemWithImageSelected_RedWine,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemSelected_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageSelected_RedWine,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_RedWine
+{
+    border-width: 0px;
+	color: #FFFFFF;
+	background-color: #8A0A37;
+}
+.dxmVerticalMenuItemSelected_RedWine a,
+.dxmVerticalMenuItemSelectedWithImage_RedWine a,
+.dxmVerticalMenuItemSelectedWithPopOutImage_RedWine a,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuRtlItemSelected_RedWine a,
+.dxmVerticalMenuRtlItemSelectedWithImage_RedWine a,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_RedWine a,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeItemSelected_RedWine a,
+.dxmVerticalMenuLargeItemWithImageSelected_RedWine a,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeRtlItemSelected_RedWine a,
+.dxmVerticalMenuLargeRtlItemWithImageSelected_RedWine a,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_RedWine a
+{
+    color: #FFFFFF;
+}
+.dxmMenuItemDropDownButtonSelected_RedWine,
+.dxmMenuLargeItemDropDownButtonSelected_RedWine,
+.dxmMenuRtlItemDropDownButtonSelected_RedWine,
+.dxmMenuLargeRtlItemDropDownButtonSelected_RedWine
+{
+	padding-right: 9px;
+	padding-left: 9px;
+}
+.dxmVerticalMenuItemDropDownButtonSelected_RedWine,
+.dxmVerticalMenuLargeItemDropDownButtonSelected_RedWine
+{
+	border-left: solid #F5ECF1 1px;
+	padding-right: 3px;
+	padding-left: 0px;
+}
+.dxmVerticalMenuRtlItemDropDownButtonSelected_RedWine,
+.dxmVerticalMenuLargeRtlItemDropDownButtonSelected_RedWine
+{
+	border-right: solid #F5ECF1 1px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+.dxmMenuItemSelected_RedWine,
+.dxmMenuItemSelectedWithImage_RedWine,
+.dxmMenuItemChecked_RedWine,
+.dxmMenuItemCheckedWithImage_RedWine,
+.dxmMenuItemHover_RedWine,
+.dxmMenuItemHoverWithImage_RedWine
+{
+	padding: 3px 9px 4px;
+}
+.dxmMenuItemSelectedWithPopOutImage_RedWine,
+.dxmMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmMenuItemCheckedWithPopOutImage_RedWine,
+.dxmMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmMenuItemHoverWithPopOutImage_RedWine,
+.dxmMenuItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 3px 9px;
+}	
+.dxmVerticalMenuItemSelected_RedWine,
+.dxmVerticalMenuItemChecked_RedWine,
+.dxmVerticalMenuItemHover_RedWine
+{
+	padding: 5px 13px 6px 8px;
+}
+.dxmVerticalMenuRtlItemSelected_RedWine,
+.dxmVerticalMenuRtlItemChecked_RedWine,
+.dxmVerticalMenuRtlItemHover_RedWine
+{
+	padding: 5px 8px 6px 13px;
+}
+.dxmVerticalMenuItemSelectedWithImage_RedWine,
+.dxmVerticalMenuItemCheckedWithImage_RedWine,
+.dxmVerticalMenuItemHoverWithImage_RedWine
+{
+	padding: 5px 13px 6px 5px;
+}
+.dxmVerticalMenuRtlItemSelectedWithImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImage_RedWine
+{
+	padding: 5px 5px 6px 13px;
+}
+.dxmVerticalMenuItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemHoverWithPopOutImage_RedWine
+{
+	padding: 5px 1px 6px 8px;
+}
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_RedWine
+{
+	padding: 5px 8px 6px 1px;
+}
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 5px 1px 6px 5px;
+}
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 5px 5px 6px 1px;
+}
+.dxmMenuLargeItemSelected_RedWine,
+.dxmMenuLargeItemSelectedWithImage_RedWine,
+.dxmMenuLargeItemChecked_RedWine,
+.dxmMenuLargeItemCheckedWithImage_RedWine,
+.dxmMenuLargeItemHover_RedWine,
+.dxmMenuLargeItemHoverWithImage_RedWine
+{
+	padding: 3px 22px 3px 21px;
+}
+.dxmMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmMenuLargeItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 3px 16px 3px 21px;
+}
+.dxmVerticalMenuLargeSelectedItem_RedWine,
+.dxmVerticalMenuLargeSelectedItemWithImage_RedWine,
+.dxmVerticalMenuLargeCheckedItem_RedWine,
+.dxmVerticalMenuLargeCheckedItemWithImage_RedWine,
+.dxmVerticalMenuLargeHoverItem_RedWine,
+.dxmVerticalMenuLargeHoverItemWithImage_RedWine
+{
+	padding: 7px 13px 8px 11px;
+}
+.dxmVerticalMenuLargeRtlSelectedItem_RedWine,
+.dxmVerticalMenuLargeRtlSelectedItemWithImage_RedWine,
+.dxmVerticalMenuLargeRtlCheckedItem_RedWine,
+.dxmVerticalMenuLargeRtlCheckedItemWithImage_RedWine,
+.dxmVerticalMenuLargeRtlHoverItem_RedWine,
+.dxmVerticalMenuLargeRtlHoverItemWithImage_RedWine
+{
+	padding: 7px 11px 8px 13px;
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 7px 3px 8px 13px;
+}
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 7px 13px 8px 3px;
+}
+.dxmMenuItemChecked_RedWine,
+.dxmMenuItemCheckedWithImage_RedWine,
+.dxmMenuItemCheckedWithPopOutImage_RedWine,
+.dxmMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuItemChecked_RedWine,
+.dxmVerticalMenuItemCheckedWithImage_RedWine,
+.dxmVerticalMenuItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemChecked_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemChecked_RedWine,
+.dxmMenuLargeItemCheckedWithImage_RedWine,
+.dxmMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmMenuLargeItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemChecked_RedWine,
+.dxmVerticalMenuLargeItemWithImageChecked_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemChecked_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageChecked_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_RedWine
+{
+	border: Solid 1px #8A0A37;
+}
+.dxmMenuItemChecked_RedWine,
+.dxmMenuItemCheckedWithImage_RedWine,
+.dxmMenuItemCheckedWithPopOutImage_RedWine,
+.dxmMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemChecked_RedWine,
+.dxmMenuLargeItemCheckedWithImage_RedWine,
+.dxmMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmMenuLargeItemCheckedWithImageWithPopOutImage_RedWine
+{
+	background-color: #CB4F7B;
+
+	background-image: url('mItemSBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmVerticalMenuItemChecked_RedWine,
+.dxmVerticalMenuItemCheckedWithImage_RedWine,
+.dxmVerticalMenuItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemChecked_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemChecked_RedWine,
+.dxmVerticalMenuLargeItemWithImageChecked_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemChecked_RedWine,
+.dxmVerticalMenuLargeRtlItemWithImageChecked_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_RedWine
+{
+    border-width: 0px;
+	color: #FFFFFF;
+	background-color: #8A0A37;
+}
+.dxmMenuItemDropDownButtonChecked_RedWine,
+.dxmMenuLargeItemDropDownButtonChecked_RedWine,
+.dxmMenuRtlItemDropDownButtonChecked_RedWine,
+.dxmMenuLargeRtlItemDropDownButtonChecked_RedWine
+{
+	padding-right: 9px;
+	padding-left: 9px;
+}
+.dxmVerticalMenuItemDropDownButtonChecked_RedWine,
+.dxmVerticalMenuLargeItemDropDownButtonChecked_RedWine
+{
+	border-left: solid #F5ECF1 1px;
+	padding-right: 3px;
+	padding-left: 0px;
+}
+.dxmVerticalMenuRtlItemDropDownButtonChecked_RedWine,
+.dxmVerticalMenuLargeRtlItemDropDownButtonChecked_RedWine
+{
+	border-right: solid #F5ECF1 1px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+.dxmMenuItemHover_RedWine,
+.dxmMenuItemHoverWithImage_RedWine,
+.dxmMenuItemHoverWithPopOutImage_RedWine,
+.dxmMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.dxmVerticalMenuItemHover_RedWine,
+.dxmVerticalMenuItemHoverWithImage_RedWine,
+.dxmVerticalMenuItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHover_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_RedWine,
+.dxmMenuLargeItemHover_RedWine,
+.dxmMenuLargeItemHoverWithImage_RedWine,
+.dxmMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine, 
+.dxmVerticalMenuLargeItemHover_RedWine,
+.dxmVerticalMenuLargeItemHoverWithImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHover_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+	border: Solid 1px #8A0A37;
+}
+.dxmMenuItemHover_RedWine,
+.dxmMenuItemHoverWithImage_RedWine,
+.dxmMenuItemHoverWithPopOutImage_RedWine,
+.dxmMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.dxmMenuLargeItemHover_RedWine,
+.dxmMenuLargeItemHoverWithImage_RedWine,
+.dxmMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+	background-color: #D69BD3;
+
+	background-image: url('mItemHBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmVerticalMenuItemHover_RedWine,
+.dxmVerticalMenuItemHoverWithImage_RedWine,
+.dxmVerticalMenuItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHover_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemHover_RedWine,
+.dxmVerticalMenuLargeItemHoverWithImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHover_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_RedWine,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+	color: #000000;
+    border-width: 0px;
+	background-color: #D94246;
+}
+.dxmVerticalMenuItemHover_RedWine a,
+.dxmVerticalMenuItemHoverWithImage_RedWine a,
+.dxmVerticalMenuItemHoverWithPopOutImage_RedWine a,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuRtlItemHover_RedWine a,
+.dxmVerticalMenuRtlItemHoverWithImage_RedWine a,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_RedWine a,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeItemHover_RedWine a,
+.dxmVerticalMenuLargeItemHoverWithImage_RedWine a,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeRtlItemHover_RedWine a,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_RedWine a,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_RedWine a,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_RedWine a
+{
+    color: #000000;
+}
+.dxmMenuItemDropDownButtonHover_RedWine,
+.dxmMenuLargeItemDropDownButtonHover_RedWine,
+.dxmMenuRtlItemDropDownButtonHover_RedWine,
+.dxmMenuLargeRtlItemDropDownButtonHover_RedWine
+{
+	padding-right: 9px;
+	padding-left: 9px;
+}
+.dxmVerticalMenuItemDropDownButtonHover_RedWine,
+.dxmVerticalMenuLargeItemDropDownButtonHover_RedWine
+{
+	border-left: solid #F5ECF1 1px;
+	padding-right: 3px;
+	padding-left: 0px;
+}
+.dxmVerticalMenuRtlItemDropDownButtonHover_RedWine,
+.dxmVerticalMenuLargeRtlItemDropDownButtonHover_RedWine
+{
+	border-right: solid #F5ECF1 1px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+.dxmSubMenu_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: Solid 1px #8A0A37;
+	padding: 1px;
+}
+.dxmSubMenuGutter_RedWine
+{
+	background-color: #EFEFEF;
+	
+	background-image: url('mGutterRightBorder.gif');
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+.dxmSubMenuRtlGutter_RedWine
+{
+	background-color: #EFEFEF;
+	
+	background-image: url('mGutterRightBorder.gif');
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+.dxmSubMenuSeparator_RedWine
+{
+	width: 100%;
+	height: 1px;
+	background-color: #c6c6c6;
+}
+.dxmSubMenuItem_RedWine,
+.dxmSubMenuItemWithImage_RedWine,
+.dxmSubMenuItemWithPopOutImage_RedWine,
+.dxmSubMenuItemWithImageWithPopOutImage_RedWine,
+.dxmSubMenuRtlItem_RedWine,
+.dxmSubMenuRtlItemWithImage_RedWine,
+.dxmSubMenuRtlItemWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemWithImageWithPopOutImage_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	white-space: nowrap;
+}
+.dxmSubMenuItem_RedWine,
+.dxmSubMenuItemWithImage_RedWine
+{
+	padding: 3px 17px 4px 8px;
+}
+.dxmSubMenuRtlItem_RedWine,
+.dxmSubMenuRtlItemWithImage_RedWine
+{
+	padding: 3px 8px 4px 17px;
+}
+.dxmSubMenuItemWithPopOutImage_RedWine,
+.dxmSubMenuItemWithImageWithPopOutImage_RedWine
+{
+	padding: 3px 4px 4px 8px;
+}
+.dxmSubMenuRtlItemWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemWithImageWithPopOutImage_RedWine
+{
+	padding: 3px 8px 4px 4px;
+}
+.dxmSubMenuItemDropDownButton_RedWine
+{
+	padding-right: 4px;
+	padding-left: 1px;
+}
+.dxmSubMenuRtlItemDropDownButton_RedWine
+{
+	padding-right: 1px;
+	padding-left: 4px;
+}
+.dxmSubMenuItemSelected_RedWine,
+.dxmSubMenuItemSelectedWithImage_RedWine,
+.dxmSubMenuItemSelectedWithPopOutImage_RedWine,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemSelected_RedWine,
+.dxmSubMenuRtlItemSelectedWithImage_RedWine,
+.dxmSubMenuRtlItemSelectedWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_RedWine
+{
+    background-image: none;
+	background-color: #8A0A37;
+	border: Solid 1px #8A0A37;
+	color: #FFFFFF;
+}
+.dxmSubMenuItemSelected_RedWine,
+.dxmSubMenuItemSelectedWithImage_RedWine
+{
+	padding: 2px 16px 3px 7px;
+}
+.dxmSubMenuRtlItemSelected_RedWine,
+.dxmSubMenuRtlItemSelectedWithImage_RedWine
+{
+	padding: 2px 7px 3px 16px;
+}
+.dxmSubMenuItemSelectedWithPopOutImage_RedWine,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_RedWine
+{
+	padding: 2px 3px 3px 7px;
+}
+.dxmSubMenuRtlItemSelectedWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_RedWine
+{
+	padding: 2px 7px 3px 3px;
+}
+.dxmSubMenuItemDropDownButtonSelected_RedWine
+{
+	border-left: solid white 1px;
+	padding-right: 3px;
+	padding-left: 0px;
+}
+.dxmSubMenuRtlItemDropDownButtonSelected_RedWine
+{
+	border-right: solid white 1px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+.dxmSubMenuItemChecked_RedWine,
+.dxmSubMenuItemCheckedWithImage_RedWine,
+.dxmSubMenuItemCheckedWithPopOutImage_RedWine,
+.dxmSubMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemChecked_RedWine,
+.dxmSubMenuRtlItemCheckedWithImage_RedWine,
+.dxmSubMenuRtlItemCheckedWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemCheckedWithImageWithPopOutImage_RedWine
+{
+}
+.dxmSubMenuItemChecked_RedWine,
+.dxmSubMenuItemCheckedWithImage_RedWine,
+.dxmSubMenuRtlItemChecked_RedWine,
+.dxmSubMenuRtlItemCheckedWithImage_RedWine
+{
+}
+.dxmSubMenuItemCheckedWithPopOutImage_RedWine,
+.dxmSubMenuItemCheckedWithImageWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemCheckedWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemCheckedWithImageWithPopOutImage_RedWine
+{
+}
+.dxmSubMenuItemDropDownButtonChecked_RedWine,
+.dxmSubMenuRtlItemDropDownButtonChecked_RedWine
+{
+}
+.dxmSubMenuItemHover_RedWine,
+.dxmSubMenuItemHoverWithImage_RedWine,
+.dxmSubMenuItemHoverWithPopOutImage_RedWine,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemHover_RedWine,
+.dxmSubMenuRtlItemHoverWithImage_RedWine,
+.dxmSubMenuRtlItemHoverWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+    background-image: none;
+
+	background-color: #D94246;
+	border: Solid 1px #D94246;
+	color: #000000;
+}
+.dxmSubMenuItemHover_RedWine,
+.dxmSubMenuItemHoverWithImage_RedWine
+{
+	padding: 2px 16px 3px 7px;
+}
+.dxmSubMenuRtlItemHover_RedWine,
+.dxmSubMenuRtlItemHoverWithImage_RedWine
+{
+	padding: 2px 7px 3px 16px;
+}
+.dxmSubMenuItemHoverWithPopOutImage_RedWine,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 2px 3px 3px 7px;
+}
+.dxmSubMenuRtlItemHoverWithPopOutImage_RedWine,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_RedWine
+{
+	padding: 2px 7px 3px 3px;
+}
+.dxmSubMenuItemDropDownButtonHover_RedWine
+{
+	border-left: solid white 1px;
+	padding-right: 3px;
+	padding-left: 0px;
+}
+.dxmSubMenuRtlItemDropDownButtonHover_RedWine
+{
+	border-right: solid white 1px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+.dxmSubMenuBorderCorrector_RedWine
+{
+    position: absolute;
+    border: 0px;
+    padding: 0px;
+}
+
+.dxmMenuItemSpacing_RedWine,
+.dxmMenuLargeItemSpacing_RedWine,
+.dxmMenuItemSeparatorSpacing_RedWine,
+.dxmMenuLargeItemSeparatorSpacing_RedWine
+{
+	width: 1px;
+}
+.dxmVerticalMenuItemSpacing_RedWine,
+.dxmVerticalMenuItemSeparatorSpacing_RedWine,
+.dxmVerticalMenuLargeItemSpacing_RedWine,
+.dxmVerticalMenuLargeItemSeparatorSpacing_RedWine,
+.dxmSubMenuItemSpacing_RedWine,
+.dxmSubMenuItemSeparatorSpacing_RedWine
+{
+	height: 1px;
+}
+
+.dxmMenuItemLeftImageSpacing_RedWine
+{
+	padding-right: 4px;
+}
+.dxmMenuItemRightImageSpacing_RedWine
+{
+	padding-left: 4px;
+}
+.dxmVerticalMenuItemLeftImageSpacing_RedWine,
+.dxmVerticalMenuItemRightImageSpacing_RedWine,
+.dxmSubMenuItemImageSpacing_RedWine
+{
+	width: 1px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-left-width: 0px !important;
+	border-right-width: 0px !important;
+}
+.dxmVerticalMenuItemLeftImageSpacing_RedWine div,
+.dxmVerticalMenuItemRightImageSpacing_RedWine div
+{
+	width: 4px;
+	height: 1px;
+}
+.dxmMenuItemTopImageSpacing_RedWine,
+.dxmVerticalMenuItemTopImageSpacing_RedWine
+{
+	margin-bottom: 4px;
+}
+.dxmMenuItemBottomImageSpacing_RedWine,
+.dxmVerticalMenuItemBottomImageSpacing_RedWine
+{
+	margin-top: 4px;
+}
+.dxmSubMenuItemImageSpacing_RedWine div
+{
+	width: 4px;
+	height: 1px;
+}
+
+.dxmScrollUpButton_RedWine,
+.dxmScrollDownButton_RedWine
+{
+	background-color: #e15f8d;
+	border: Solid 1px #8a0a37;
+	background-image: url('mScrollBack.gif');
+    background-repeat: repeat-x;
+    background-position: top;
+
+    cursor: pointer;
+    font-size: 0px;
+    padding: 2px;
+    text-align: center;
+}
+.dxmScrollUpButton_RedWine
+{
+    margin-bottom: 1px;
+}
+.dxmScrollDownButton_RedWine
+{
+    margin-top: 1px;
+}
+.dxmScrollButtonHover_RedWine
+{
+	background-color: #bd79b9;
+	background-image: url('mScrollHBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmScrollButtonPressed_RedWine
+{
+	background-color: #783675;
+	background-image: url('mScrollSBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmScrollButtonHover_RedWine,
+.dxmScrollButtonPressed_RedWine 
+{
+    border: Solid 1px #6c2668;
+}
+.dxmScrollButtonDisabled_RedWine
+{
+    cursor: default;
+}
+.dxmScrollArea_RedWine
+{
+    overflow: hidden;
+    position: relative;
+}
+
+/* Disabled */
+.dxmDisabled_RedWine
+{
+	color: #cdb9bf;
+	cursor: default;
+}
+
+/*                             */
+/* -- ASPxMenu Toolbar mode -- */
+/*                             */
+.dxmtb .dxmMenuSeparator_RedWine .dx
+{
+	height: 13px;
+}
+.dxmtb .dxmMenuItem_RedWine,
+.dxmtb .dxmMenuItemWithImage_RedWine,
+.dxmtb .dxmMenuItemWithPopOutImage_RedWine,
+.dxmtb .dxmMenuItemWithImageWithPopOutImage_RedWine
+{
+    padding: 4px 6px 5px;
+    background: transparent;
+}	
+.dxmtb .dxmMenuItemSelected_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImage_RedWine,
+.dxmtb .dxmMenuItemSelectedWithPopOutImage_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImageWithPopOutImage_RedWine
+{
+    padding: 3px 5px 4px;
+}
+.dxmtb .dxmMenuItemChecked_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImage_RedWine,
+.dxmtb .dxmMenuItemCheckedWithPopOutImage_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImageWithPopOutImage_RedWine
+{
+    padding: 3px 5px 4px;
+}
+.dxmtb .dxmMenuItemHover_RedWine,
+.dxmtb .dxmMenuItemHoverWithImage_RedWine,
+.dxmtb .dxmMenuItemHoverWithPopOutImage_RedWine,
+.dxmtb .dxmMenuItemHoverWithImageWithPopOutImage_RedWine
+{
+    padding: 3px 5px 4px;
+}
+.dxmtb .dxmMenuItemHoverWithImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine,
+.dxmtb .dxmMenuItemHoverWithImageWithPopOutImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImageWithPopOutImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImageWithPopOutImage_RedWine.dxmMenuItemLeftImageSpacing_RedWine
+{
+    padding-right: 6px;
+}
+.dxmtb .dxmMenuItemHoverWithImage_RedWine.dxmMenuItemRightImageSpacing_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImage_RedWine.dxmMenuItemRightImageSpacing_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImage_RedWine.dxmMenuItemRightImageSpacing_RedWine,
+.dxmtb .dxmMenuItemHoverWithImageWithPopOutImage_RedWine.dxmMenuItemRightImageSpacing_RedWine,
+.dxmtb .dxmMenuItemSelectedWithImageWithPopOutImage_RedWine.dxmMenuItemRightImageSpacing_RedWine,
+.dxmtb .dxmMenuItemCheckedWithImageWithPopOutImage_RedWine.dxmMenuItemRightImageSpacing_RedWine
+{
+    padding-left: 6px;
+}
+.dxmtb .dxmMenuItemDropDownButton_RedWine,
+.dxmtb .dxmMenuRtlItemDropDownButton_RedWine
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.dxmtb .dxmMenuItemDropDownButtonHover_RedWine,
+.dxmtb .dxmMenuItemDropDownButtonSelected_RedWine,
+.dxmtb .dxmMenuItemDropDownButtonChecked_RedWine,
+.dxmtb .dxmMenuRtlItemDropDownButtonHover_RedWine,
+.dxmtb .dxmMenuRtlItemDropDownButtonSelected_RedWine,
+.dxmtb .dxmMenuRtlItemDropDownButtonChecked_RedWine
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxmtb .dxmMenuItemSpacing_RedWine,
+.dxmtb .dxmMenuItemSeparatorSpacing_RedWine
+{
+	width: 1px;
+}
+
+/*                     */
+/* -- ASPxMenu Lite -- */
+/*                     */
+.dxm-rtl
+{
+	direction: ltr;
+}
+.dxm-rtl .dxm-content
+{
+	direction: rtl;
+}
+
+.dxm-ltr .dxm-main,
+.dxm-ltr .dxm-horizontal ul.dx 
+{
+	float: left;
+}
+.dxm-rtl .dxm-main,
+.dxm-rtl .dxm-horizontal ul.dx 
+{
+	float: right;	
+}
+.dxm-popup 
+{
+	position: relative;
+}
+ul.dx 
+{
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.dxm-rtl ul.dx 
+{
+	background-position: right top;
+}
+.dxm-image,
+.dxm-pImage 
+{
+	border-width: 0px;
+	vertical-align: top;
+}
+.dxm-popOut,
+.dxm-spacing,
+.dxm-separator,
+.dxm-separator b 
+{
+	font-size: 0px;
+	line-height: 0px;
+	display: block;
+}
+
+.dxm-ltr .dxm-horizontal .dxm-item,
+.dxm-ltr .dxm-horizontal .dxm-spacing,
+.dxm-ltr .dxm-horizontal .dxm-separator,
+.dxm-ltr .dxm-content
+{
+    float: left;
+}
+.dxm-rtl .dxm-horizontal .dxm-item,
+.dxm-rtl .dxm-horizontal .dxm-spacing,
+.dxm-rtl .dxm-horizontal .dxm-separator,
+.dxm-rtl .dxm-content
+{
+    float: right;    
+}
+
+.dxm-vertical .dxm-image-r .dxm-popOut
+{
+	float: left;
+}
+.dxm-vertical .dxm-image-l .dxm-popOut
+{
+	float: right;
+}
+
+.dxm-ltr .dxm-horizontal .dxm-popOut
+{
+    float: left;
+}
+.dxm-ltr .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxm-ltr .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxm-ltr .dxm-popup .dxm-popOut 
+{
+	float: right;
+}
+
+.dxm-rtl .dxm-horizontal .dxm-popOut
+{
+    float: right;
+}
+.dxm-rtl .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxm-rtl .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxm-rtl .dxm-popup .dxm-popOut 
+{
+	float: left;
+}
+.dxm-ie7 .dxm-vertical ul.dx,
+.dxm-ie7 .dxm-popup ul.dx
+{
+	height: 1%;
+}
+.dxm-ie7 .dxm-vertical .dxm-item,
+.dxm-ie7 .dxm-popup .dxm-item
+{
+	margin-bottom: -2px;
+}
+.dxm-ie7 .dxm-vertical .dxm-spacing,
+.dxm-ie7 .dxm-popup .dxm-spacing
+{
+	margin-top: -3px;
+}
+.dxm-ie7 .dxm-vertical .dxm-item,
+.dxm-ie7 .dxm-vertical .dxm-spacing,
+.dxm-ie7 .dxm-vertical .dxm-separator,
+.dxm-ie7 .dxm-popup .dxm-item,
+.dxm-ie7 .dxm-popup .dxm-spacing,
+.dxm-ie7 .dxm-popup .dxm-separator
+{
+	zoom: 1;
+}
+.dxm-vertical .dxm-separator b,
+.dxm-popup .dxm-separator b
+{
+	margin: 0px auto;
+}
+.dxm-ie7 .dxm-vertical .dxm-separator b,
+.dxm-ie7 .dxm-popup .dxm-separator b
+{
+	margin: 0px;
+}
+.dxm-ie7 .dxm-vertical .dxm-separator,
+.dxm-ie7 .dxm-popup .dxm-separator
+{
+	text-align: center;
+}
+/* Horizontal align = Center */
+.dxm-haCenter 
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: hidden;
+}
+.dxm-haCenter .dxm-haWrapper,
+.dxm-haCenter .dxm-content 
+{
+    position: relative;
+}
+.dxm-ltr .dxm-image-l .dxm-haCenter .dxm-haWrapper,
+.dxm-ltr .dxm-image-t .dxm-haCenter .dxm-haWrapper,
+.dxm-ltr .dxm-image-b .dxm-haCenter .dxm-haWrapper
+{
+    float: left;
+    left: 50%;
+}
+.dxm-rtl .dxm-image-r .dxm-haCenter .dxm-haWrapper,
+.dxm-rtl .dxm-image-t .dxm-haCenter .dxm-haWrapper,
+.dxm-rtl .dxm-image-b .dxm-haCenter .dxm-haWrapper
+{
+    float: right;
+    right: 50%;
+}
+.dxm-ltr .dxm-image-l .dxm-haCenter .dxm-content,
+.dxm-ltr .dxm-image-t .dxm-haCenter .dxm-content,
+.dxm-ltr .dxm-image-b .dxm-haCenter .dxm-content 
+{
+    left: -50%;
+}
+.dxm-rtl .dxm-image-r .dxm-haCenter .dxm-content,
+.dxm-rtl .dxm-image-t .dxm-haCenter .dxm-content,
+.dxm-rtl .dxm-image-b .dxm-haCenter .dxm-content 
+{
+    right: -50%;
+}
+.dxm-ltr .dxm-image-r .dxm-haCenter .dxm-haWrapper 
+{
+    float: right;
+    right: 50%;
+}
+.dxm-rtl .dxm-image-l .dxm-haCenter .dxm-haWrapper 
+{
+    float: left;
+    left: 50%;
+}
+.dxm-ltr .dxm-image-r .dxm-haCenter .dxm-content 
+{
+    right: -50%;
+}
+.dxm-rtl .dxm-image-l .dxm-haCenter .dxm-content 
+{
+    left: -50%;
+}
+
+/* Appearance */
+.dxmLite_RedWine .dxm-main
+{
+	border: Solid 1px #8A0A37;
+}
+
+.dxmLite_RedWine .dxm-horizontal
+{
+	background: url('mItemBack.gif') repeat-x top #F27AA4;
+	padding: 1px;
+}
+.dxmLite_RedWine .dxm-vertical
+{
+	background-color: #F5ECF1;
+	padding: 4px;
+	
+	width: 150px;
+}
+
+.dxmLite_RedWine .dxm-popup
+{
+	border: solid 1px #8A0A37;
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+.dxmBC_RedWine
+{
+	background-color: #FFFFFF;
+}
+
+.dxmLite_RedWine ul.dx
+{
+	font: 9pt Tahoma;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-gutter
+{
+	background-image: url('mGutter.gif');
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-gutter
+{
+	background-image: url('mGutterRtl.gif');
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+.dxmLite_RedWine .dxm-item
+{
+	cursor: default;
+}
+
+.dxmLite_RedWine .dxm-image-t .dxm-item,
+.dxmLite_RedWine .dxm-image-b .dxm-item,
+.dxmLite_RedWine .dxm-content
+{
+	text-align: center;
+	white-space: nowrap;
+}
+
+.dxmLite_RedWine .dxm-horizontal,
+.dxmLite_RedWine .dxm-horizontal .dxm-content a.dx
+{
+	color: White;
+}
+.dxmLite_RedWine .dxm-vertical,
+.dxmLite_RedWine .dxm-vertical .dxm-content a.dx,
+.dxmLite_RedWine .dxm-popup,
+.dxmLite_RedWine .dxm-popup .dxm-content a.dx
+{
+	color: Black;
+}
+
+.dxmLite_RedWine .dxm-disabled,
+.dxmLite_RedWine .dxm-disabled .dxm-content a.dx
+{
+	color: #cdb9bf;
+}
+
+.dxmLite_RedWine .dxm-content a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_RedWine .dxm-horizontal .dxm-item,
+.dxmLite_RedWine .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-item,
+.dxmLite_RedWine .dxm-popup .dxm-item,
+.dxmLite_RedWine .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-checked,
+.dxmLite_RedWine .dxm-horizontal .dxm-selected,
+.dxmLite_RedWine .dxm-horizontal .dxm-hovered,
+.dxmLite_RedWine .dxm-horizontal .dxm-dropDownMode.dxm-checked .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #8A0A37;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #F5ECF1;
+}
+.dxmLite_RedWine .dxm-popup .dxm-checked,
+.dxmLite_RedWine .dxm-popup .dxm-selected,
+.dxmLite_RedWine .dxm-popup .dxm-hovered
+{
+	border-color: #DBBBDA;
+}
+.dxmLite_RedWine .dxm-popup .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_RedWine .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: White;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-checked,
+.dxmLite_RedWine .dxm-horizontal .dxm-selected,
+.dxmLite_RedWine .dxm-popup .dxm-selected
+{
+	background: url('mItemSBack.gif') repeat-x top #CB4F7B;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-checked,
+.dxmLite_RedWine .dxm-vertical .dxm-selected
+{
+	background-color: #8A0A37;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-hovered
+{
+	background: url('mItemHBack.gif') repeat-x top #D69BD3;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-hovered,
+.dxmLite_RedWine .dxm-popup .dxm-hovered
+{
+	background-color: #DBBBDA;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-checked,
+.dxmLite_RedWine .dxm-vertical .dxm-checked .dxm-content a.dx,
+.dxmLite_RedWine .dxm-vertical .dxm-selected,
+.dxmLite_RedWine .dxm-vertical .dxm-selected .dxm-content a.dx
+{
+	color: White;
+}
+
+/* Content */
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 9px 4px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 22px 3px 21px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 21px 3px 22px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+    padding: 4px 22px 4px 21px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+    padding: 4px 21px 4px 22px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 10px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 10px;
+}
+
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 13px 6px 5px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 5px 6px 13px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 7px 16px 8px 13px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 7px 13px 8px 16px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-content
+{
+	padding: 3px 17px 4px 8px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-content
+{
+	padding: 3px 8px 4px 17px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 5px;
+	padding-left: 15px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+/* Image */
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-image,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 6px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-image,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 6px;
+}
+.dxmLite_RedWine .dxm-image-t .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_RedWine .dxm-image-b .dxm-image
+{
+	margin-top: 4px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-image,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-image
+{
+	margin-right: 13px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-image,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-image
+{
+	margin-left: 13px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 11px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 11px;
+}
+
+/* Image replacement */
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-noImage,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-noImage
+{
+	padding-left: 27px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-noImage,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-noImage
+{
+	padding-right: 27px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 25px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 25px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 3px;
+}
+
+/* PopOut */
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 23px;
+	padding-bottom: 22px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 16px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 16px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_RedWine .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-subMenu .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-subMenu .dxm-popOut
+{
+	padding-right: 4px;
+	padding-left: 1px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-subMenu .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-subMenu .dxm-popOut
+{
+	padding-left: 4px;
+	padding-right: 1px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 1px;
+	padding-right: 4px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 1px;
+	padding-left: 4px;
+}
+
+.dxmLite_RedWine .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* PopOut replacement */
+.dxmLite_RedWine .dxm-vertical .dxm-image-l .dxm-noSubMenu,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-noSubMenu,
+.dxm-ltr.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-noSubMenu,
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-image-r .dxm-noSubMenu,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-t .dxm-noSubMenu,
+.dxm-rtl.dxmLite_RedWine .dxm-vertical .dxm-image-b .dxm-noSubMenu,
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+
+/* Spacings */
+.dxmLite_RedWine .dxm-horizontal .dxm-spacing
+{
+	width: 1px;
+	height: 1px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-spacing,
+.dxmLite_RedWine .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-separator
+{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-separator,
+.dxmLite_RedWine .dxm-popup .dxm-separator
+{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.dxm-ie7.dxmLite_RedWine .dxm-popup .dxm-separator
+{
+	margin-top: 0px;
+}
+
+/* Separator */
+.dxmLite_RedWine .dxm-horizontal .dxm-separator b
+{
+	width: 2px;
+	height: 14px;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-separator b
+{
+	height: 2px;
+}
+.dxmLite_RedWine .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-separator b
+{
+	background: transparent url('mSeparator.gif') center center repeat-y;
+}
+.dxmLite_RedWine .dxm-vertical .dxm-separator b
+{
+	background: transparent url('mVerticalSeparator.gif') center center repeat-x;
+}
+.dxmLite_RedWine .dxm-popup .dxm-separator b
+{
+	background-color: #C6C6C6;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-separator b
+{
+	margin-top: 4px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator b,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator b
+{
+	margin-top: 2px;
+}
+.dxmLite_RedWine .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_RedWine .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	margin-top: 20px;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-left: 38px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-right: 38px;
+}
+/* Scroll elements */
+.dxmLite_RedWine .dxm-scrollUpBtn, 
+.dxmLite_RedWine .dxm-scrollDownBtn
+{
+	background-color: #e15f8d;
+	border: Solid 1px #8a0a37;
+	background-image: url('mScrollBack.gif');
+    background-repeat: repeat-x;
+    background-position: top;
+
+    cursor: pointer;
+    font-size: 0px;
+    padding: 2px;
+    text-align: center;
+}
+.dxmLite_RedWine .dxm-scrollUpBtn
+{
+    margin-bottom: 1px;
+}
+.dxmLite_RedWine .dxm-scrollDownBtn
+{
+    margin-top: 1px;
+}
+.dxmLite_RedWine .dxm-scrollBtnHovered
+{
+	background-color: #bd79b9;
+	background-image: url('mScrollHBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmLite_RedWine .dxm-scrollBtnPressed
+{
+	background-color: #783675;
+	background-image: url('mScrollSBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxmLite_RedWine .dxm-scrollBtnHovered,
+.dxmLite_RedWine .dxm-scrollBtnPressed
+{
+    border: Solid 1px #6c2668;
+}
+.dxmLite_RedWine .dxm-scrollBtnDisabled
+{
+    cursor: default;
+}
+.dxmLite_RedWine .dxm-scrollArea
+{
+    overflow: hidden;
+    position: relative;
+}
+
+/*                                  */
+/* -- ASPxMenu Lite Toolbar mode -- */
+/*                                  */
+.dxmLite_RedWine .dxm-main.dxmtb  {
+    padding: 1px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-content,
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content {
+	padding: 4px 5px 3px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-image-l .dxm-noImage .dxm-content {
+    padding: 5px 5px 4px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-dropDownMode .dxm-content {
+	padding: 4px 5px 3px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content {
+	padding-top: 3px;
+}
+
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-image 
+{
+	margin-right: 0;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-r .dxm-image 
+{
+	margin-left: 0;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-popup.dxmtb  .dxm-image 
+{
+	margin-right: 10px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-popup.dxmtb  .dxm-image 
+{
+	margin-left: 10px;
+}
+
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-dropDownMode.dxm-noImage 
+{
+    padding-left: 0;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-r .dxm-dropDownMode.dxm-noImage 
+{
+    padding-right: 0;
+}
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxm-ltr.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-l .dxm-popOut 
+{
+    padding: 6px 3px 6px 2px;
+}
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxm-rtl.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-image-r .dxm-popOut 
+{
+    padding: 6px 2px 6px 3px;
+}
+
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-spacing {
+	width: 1px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-separator {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.dxmLite_RedWine .dxm-horizontal.dxmtb  .dxm-separator b {
+	margin-top: 6px;
+}
+
+/* -- ASPxNavBar -- */
+.dxnbControl_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	background-color: #F2F2F2;
+}
+.dxnbControl_RedWine td.dxnbCtrl
+{
+    padding: 0px;
+}
+.dxnbControl_RedWine a
+{
+    color: #000000;
+}
+
+.dxnbLoadingPanel_RedWine
+{
+	font: 9pt Tahoma;
+	color: #767676;
+}
+.dxnbLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxnbGroupHeader_RedWine
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+	background-color: #D45582;
+	border: Solid 1px #8A0A37;
+	padding: 4px 4px 4px 8px;
+	
+	background-image: url('nbGroupHeaderBack.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.dxnbGroupHeader_RedWine table.dxnb
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+}
+.dxnbGroupHeader_RedWine td.dxnb
+{
+	white-space: nowrap;
+}
+.dxnbGroupHeaderCollapsed_RedWine
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+	background-color: #D45582;
+	border: Solid 1px #8A0A37;
+	padding: 4px 4px 4px 8px;
+	
+	background-image: url('nbGroupHeaderBack.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.dxnbGroupHeaderCollapsed_RedWine table.dxnb
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+}
+.dxnbGroupHeaderCollapsed_RedWine td.dxnb
+{
+	white-space: nowrap;
+}
+.dxnbGroupContent_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	border: Solid 1px #A9A9A9;
+	padding: 3px 4px 3px 4px;
+}
+.dxnbGroupContent_RedWine table.dxnb
+{
+    background-color: #D5D5D5;
+}
+.dxnbItem_RedWine,
+.dxnbLargeItem_RedWine,
+.dxnbBulletItem_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	background-color: #F2F2F2;
+    border-top: Solid 1px #F2F2F2;	
+    border-bottom: Solid 1px #F2F2F2;	
+}
+.dxnbItem_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbLargeItem_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbBulletItem_RedWine
+{
+	margin-bottom: 9px;
+}
+.dxnbItemSelected_RedWine,
+.dxnbLargeItemSelected_RedWine,
+.dxnbBulletItemSelected_RedWine
+{
+	background-color: #8A0A37;
+	color: #FFFFFF;
+}
+.dxnbItemSelected_RedWine a,
+.dxnbLargeItemSelected_RedWine a,
+.dxnbBulletItemSelected_RedWine a
+{
+	color: #FFFFFF;
+}
+.dxnbItemSelected_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbLargeItemSelected_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbItemHover_RedWine,
+.dxnbLargeItemHover_RedWine,
+.dxnbBulletItemHover_RedWine
+{
+	background-color: #DBBBDA;
+	color: #000000;
+}
+.dxnbItemHover_RedWine a,
+.dxnbLargeItemHover_RedWine a,
+.dxnbBulletItemHover_RedWine a
+{
+	color: #000000;
+}
+.dxnbItemHover_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbLargeItemHover_RedWine
+{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.dxnbGroupHeader_RedWine,
+.dxnbGroupHeaderCollapsed_RedWine
+{
+    text-align: left;
+}
+.dxnbItem_RedWine,
+.dxnbItemHover_RedWine,
+.dxnbItemSelected_RedWine,
+.dxnbBulletItem_RedWine,
+.dxnbBulletItemHover_RedWine,
+.dxnbBulletItemSelected_RedWine
+{
+    text-align: left;
+}
+.dxnbLargeItem_RedWine,
+.dxnbLargeItemHover_RedWine,
+.dxnbLargeItemSelected_RedWine
+{
+    text-align: center;
+}
+.dxnbGroupHeaderHover_RedWine
+{
+}
+.dxnbGroupHeaderCollapsedHover_RedWine
+{
+}
+/* Spacings */
+.dxnbGroupSpacing_RedWine,
+.dxnbItemSpacing_RedWine
+{
+	width: 100%;
+	height: 1px;
+}
+.dxnbImgCellLeft_RedWine 
+{
+	padding-right: 10px;	
+}
+.dxnbImgCellRight_RedWine
+{
+	padding-left: 10px;	
+}
+.dxnbLargeItemImgTop_RedWine
+{
+	margin-bottom: 10px;
+}
+.dxnbLargeItemImgBottom_RedWine
+{
+	margin-top: 10px;
+}
+/* Disabled */
+.dxnbDisabled_RedWine,
+.dxnbDisabled_RedWine td.dcnb
+{
+	color: #bdaab1;
+	cursor: default;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_RedWine 
+{
+    color: #000000; 
+    background: #F2F2F2;
+	font: 9pt Tahoma;
+	list-style: none none outside;
+    margin: 0;         
+    padding: 0;  
+    float: left;
+    width: 200px;
+}
+.dxnbLite_RedWine a
+{
+	color: #000000;	
+}
+.dxnbLite_RedWine .dxnb-gr 
+{
+	margin: 1px 0;
+}
+.dxnbLite_RedWine .dxnb-header,
+.dxnbLite_RedWine .dxnb-headerCollapsed 
+{
+    color: #FFFFFF;
+	background: #D45582 url('nbGroupHeaderBack.gif') repeat-x top;
+	border: Solid 1px #8A0A37;
+	overflow: hidden;
+    margin: 0;
+    padding: 4px 4px 4px 8px;
+	cursor: pointer;
+	white-space: nowrap;
+	clear: both;
+}
+.dxnbLite_RedWine .dxnb-content 
+{
+	background: #D5D5D5;
+	border: solid 1px #A9A9A9;	
+    list-style: none none outside;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+	border-top-width: 0;
+}
+.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_RedWine .dxnb-item,
+.dxnbLite_RedWine .dxnb-large,
+.dxnbLite_RedWine .dxnb-bullet
+{
+	color: #000000;
+	background: #F2F2F2;
+	border: Solid 1px #F2F2F2;
+    clear: both;
+    overflow: hidden;
+    cursor: default;
+}
+.dxnbLite_RedWine .dxnb-item a,
+.dxnbLite_RedWine .dxnb-large a,
+.dxnbLite_RedWine .dxnb-bullet a
+{
+	color: #000000;
+}
+.dxnbLite_RedWine .dxnb-item,
+.dxnbLite_RedWine .dxnb-large,
+.dxnbLite_RedWine .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_RedWine .dxnb-item,
+.dxnbLite_RedWine .dxnb-large
+{
+	padding: 6px 15px;
+}
+.dxnbLite_RedWine .dxnb-bullet,
+.dxnbLite_RedWine .dxnb-bulletHover,
+.dxnbLite_RedWine .dxnb-bulletSelected 
+{
+    padding: 0 5px;
+    overflow: visible;
+    margin-bottom: 9px;
+}
+.dxnbLite_RedWine .dxnb-itemSelected,
+.dxnbLite_RedWine .dxnb-itemHover
+{
+}
+.dxnbLite_RedWine .dxnb-largeSelected,
+.dxnbLite_RedWine .dxnb-largeHover
+{
+}
+.dxnbLite_RedWine .dxnb-itemSelected,
+.dxnbLite_RedWine .dxnb-largeSelected
+{
+	background-color: #8A0A37;
+	color: #FFFFFF;
+}
+.dxnbLite_RedWine .dxnb-itemSelected a,
+.dxnbLite_RedWine .dxnb-largeSelected a
+{
+	color: #FFFFFF;
+}
+.dxnbLite_RedWine .dxnb-itemHover,
+.dxnbLite_RedWine .dxnb-largeHover
+{
+	background-color: #DBBBDA;
+	color: #000000;
+}
+.dxnbLite_RedWine .dxnb-itemHover a,
+.dxnbLite_RedWine .dxnb-largeHover a
+{
+	color: #000000;
+}
+.dxnbLite_RedWine .dxnb-header,
+.dxnbLite_RedWine .dxnb-headerCollapsed, 
+.dxnbLite_RedWine .dxnb-item,
+.dxnbLite_RedWine .dxnb-itemHover,
+.dxnbLite_RedWine .dxnb-itemSelected,
+.dxnbLite_RedWine .dxnb-bullet,
+.dxnbLite_RedWine .dxnb-bulletHover,
+.dxnbLite_RedWine .dxnb-bulletSelected
+{
+    text-align: left;
+}
+.dxnbLite_RedWine .dxnb-large,
+.dxnbLite_RedWine .dxnb-largeHover,
+.dxnbLite_RedWine .dxnb-largeSelected
+{
+    text-align: center;
+}
+.dxnbLite_RedWine .dxnb-headerHover
+{
+}
+.dxnbLite_RedWine .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_RedWine .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_RedWine .dxnb-btn,
+.dxnbLite_RedWine .dxnb-btnLeft,
+.dxnbLite_RedWine .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_RedWine .dxnb-btn
+{
+	float: right;
+	margin-left: 10px;
+}
+.dxnbLite_RedWine .dxnb-btnLeft 
+{
+	float: left;
+	margin-right: 10px;
+}
+.dxnbLite_RedWine .dxnb-img
+{
+	margin:0 10px 0 0;
+	float: left;
+}
+.dxnbLite_RedWine .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_RedWine .dxnb-rtlHeader .dxnb-img
+{
+	float: right;
+	margin: 0 0 0 10px;
+}
+.dxnbLite_RedWine .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 10px;
+}
+.dxnbLite_RedWine .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 10px;
+}
+.dxnbLite_RedWine .dxnb-large .dxnb-img
+{
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dxnbLiteDisabled_RedWine,
+.dxnbLite_RedWine .dxnbLiteDisabled_RedWine,
+.dxnbLiteDisabled_RedWine a,
+.dxnbLiteDisabled_RedWine .dxnb-item,
+.dxnbLiteDisabled_RedWine .dxnb-large,
+.dxnbLiteDisabled_RedWine .dxnb-bullet,
+.dxnbLiteDisabled_RedWine .dxnb-header,
+.dxnbLiteDisabled_RedWine .dxnb-headerCollapsed 
+{
+	color: #bdaab1;
+	cursor: default;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_RedWine 
+{
+	font: 9pt Tahoma;
+	background-color: White;
+}
+.dxncControl_RedWine td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncLoadingPanel_RedWine
+{
+    font: 9pt Tahoma;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxncLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxncContent_RedWine
+{
+    padding: 20px 20px 20px 20px;
+    border-top: Solid 1px #BC758E;
+    border-bottom: Solid 1px #BC758E;    
+}
+.dxncPagerPanel_RedWine
+{
+    padding: 9px 100px 7px 100px;
+    background-color: #F5ECF1;
+}
+.dxncItem_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	padding: 12px 8px 12px 8px;
+}
+.dxncEmptyItem_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_RedWine,
+.dxncBackToTop_RedWine a
+{
+    color: #8A0A37;
+}
+.dxncBackToTop_RedWine a:hover
+{
+    color: #BE458B;
+}
+.dxncBackToTop_RedWine a:visited
+{
+    color: #928489;
+}
+/* Headline */
+.dxncItemContent_RedWine
+{
+    line-height: 120%!important;
+    font-family: Tahoma;
+    font-size: 9pt;
+	color: #000000;
+} 
+.dxncItemDate_RedWine
+{
+	color: #8A0A37;
+	white-space: nowrap;
+	font-family: Tahoma;
+    font-size: 7pt;
+}
+.dxncItemHeader_RedWine
+{
+	color: #8A0A37;
+	font-weight: normal;
+    line-height: 121%!important;
+    font-size: 12pt;
+    font-family: Tahoma;
+}
+.dxncItemHeader_RedWine .dxncItemDate_RedWine 
+{
+    font-size: 7pt;
+    line-height: 121%!important;
+	color: #FFFFFF;
+	white-space: nowrap;
+	background-color: #8A0A37;
+	font-weight: normal;
+	padding: 3px 5px 3px 5px;
+}
+.dxncItemLeftPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #000000;
+	line-height: 121%!important;
+    text-align: right;
+}
+.dxncItemRightPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #000000;
+	line-height: 121%!important;
+}
+.dxncItemLeftPanel_RedWine img,
+.dxncItemRightPanel_RedWine img 
+{
+    margin-top: 5px;
+    border: Solid 1px #8A0A37!important;
+}
+.dxncItemDateLeftPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #8A0A37;
+	white-space: nowrap;
+}
+.dxncItemDateRightPanel_RedWine
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #8A0A37;
+	white-space: nowrap;
+}
+.dxncItemTailDiv_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+}
+.dxncItemTailDiv_RedWine a
+{
+	color: #8A0A37;
+}
+.dxncItemTailDiv_RedWine a:hover
+{
+    color: #BE458B;
+}
+.dxncItemTailDiv_RedWine a:visited
+{
+    color: #928489;
+}
+.dxncItemContent_RedWine a.dxhl
+{
+	color: #8A0A37;
+} 
+.dxncItemContent_RedWine a.dxhl:hover
+{
+    color: #BE458B;
+}
+.dxncItemContent_RedWine a.dxhl:visited
+{
+    color: #928489;
+}
+.dxncEmptyData_RedWine
+{
+	color: #E1ABBE;
+}
+/* Disabled */
+.dxncDisabled_RedWine,
+.dxncDisabled_RedWine span.dxhl,
+.dxncDisabled_RedWine a,
+.dxncDisabled_RedWine a:hover
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxPager -- */
+.dxpControl_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+}
+.dxpControl_RedWine td.dxpCtrl
+{
+	padding: 2px 2px 2px 2px;
+}
+.dxpButton_RedWine
+{
+	font: 9pt Tahoma;
+	color: #394EA2;
+	text-decoration: underline;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpButton_RedWine a
+{
+	font: 9pt Tahoma;
+	color: #394EA2;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+.dxpDisabledButton_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	text-decoration: none;
+}
+.dxpPageNumber_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+	text-decoration: underline;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px 5px 0px 5px;
+}
+.dxpPageNumber_RedWine a
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+	text-decoration: underline;
+}
+.dxpCurrentPageNumber_RedWine
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0px 3px 0px 3px;
+	background-color: #8A0A37;
+	white-space: nowrap;
+}
+.dxpSummary_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px 4px 0px 4px;
+}
+.dxpSeparator_RedWine
+{
+	background-color: #8A0A37;
+}
+/* Disabled */
+.dxpDisabled_RedWine
+{
+	color: #bcaab0;
+	border-color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+
+.dxpLite_RedWine
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+	padding: 2px;
+	float: left;
+}
+
+.dxpLite_RedWine .dxp-summary,
+.dxpLite_RedWine .dxp-sep,
+.dxpLite_RedWine .dxp-button,
+.dxpLite_RedWine .dxp-num,
+.dxpLite_RedWine .dxp-current,
+.dxpLite_RedWine .dxp-ellip
+{
+	display: block;	
+	float: left;
+	margin-left: 4px;
+	font-weight: normal;	
+}
+.dxpLite_RedWine .dxp-lead
+{
+	margin-left: 0 !important;
+}
+
+.dxpLite_RedWine a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+
+.dxpLite_RedWine .dxp-button
+{
+	color: #394EA2;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.dxpLite_RedWine .dxp-button img
+{
+	border: 0;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.dxpLite_RedWine .dxp-wideButton
+{
+	padding: 0 5px;
+}
+.dxpLite_RedWine .dxp-disabledButton
+{
+	text-decoration: none;
+	color: #bcaab0;
+	cursor: default;	
+}
+
+.dxpLite_RedWine .dxp-num
+{
+	color: #8A0A37;
+	text-decoration: underline;	
+	padding: 2px 5px 1px;
+	cursor: pointer;
+}
+
+.dxpLite_RedWine .dxp-current
+{
+	color: white;
+	background: #8A0A37;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px 3px 3px;	
+	cursor: text;
+}
+
+.dxpLite_RedWine .dxp-summary,
+.dxpLite_RedWine .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 2px 4px 1px;
+}
+
+.dxpLite_RedWine .dxp-sep
+{
+	background: #8A0A37;
+    width: 1px;
+    height: 11px;
+    margin-top: 5px;
+}
+
+.dxpLiteDisabled_RedWine,
+.dxpLiteDisabled_RedWine a,
+.dxpLiteDisabled_RedWine .dxp-summary,
+.dxpLiteDisabled_RedWine .dxp-sep,
+.dxpLiteDisabled_RedWine .dxp-button,
+.dxpLiteDisabled_RedWine .dxp-num,
+.dxpLiteDisabled_RedWine .dxp-current,
+.dxpLiteDisabled_RedWine .dxp-ellip
+{
+	color: #bcaab0;
+	border-color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxPopupControl -- */
+.dxpcControl_RedWine
+{
+	font-size: 9pt;
+	font-family: Tahoma, Verdana, Arial;
+	cursor: default;
+	color: #000000;
+	background-color: #F5ECF1;
+	border: Solid 1px #8A0A37;
+}
+.dxpcControl_RedWine a
+{
+	color: #8A0A37;
+}
+.dxpcControl_RedWine a:hover
+{
+    color: #BE458B;
+}
+.dxpcControl_RedWine a:visited
+{
+    color: #928489;
+}
+.dxpcCloseButton_RedWine
+{
+	cursor: pointer;
+	padding: 1px;
+	padding-right: 3px;
+}
+.dxpcCloseButtonHover_RedWine
+{
+}
+.dxpcContent_RedWine
+{
+	color: #000000;
+	background-color: #F5ECF1;
+	font-size: 9pt;
+	line-height: 128%;
+	font-family: Tahoma, Verdana, Arial;
+	white-space: normal;
+	border-width: 0px;
+	padding: 14px 20px 15px 20px;
+    vertical-align: top;    
+}
+.dxpcFooter_RedWine
+{
+	font-size: 9pt;
+	font-family: Tahoma, Verdana, Arial;
+	color: #9A6B82;
+	background-color: #EED8E3;
+	border-width: 0px;
+	border-top: Solid 1px #CB9FB4;
+}
+.dxpcFooter_RedWine td.dxpc
+{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 9pt;
+	color: #9A6B82;
+	white-space: nowrap;
+	padding: 12px 21px 14px 20px;
+}
+.dxpcHeader_RedWine
+{
+    font-size: 9pt;
+    font-family: Tahoma, Verdana, Arial;
+	color: #FFFFFF;
+	background-color: #CA6EA4;
+	background-image: url('pcHeaderBackT.gif');
+	background-repeat: repeat-x;
+	border-bottom: Solid 1px #972869;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.dxpcHeader_RedWine td.dxpc
+{
+    font-size: 9pt;
+    font-family: Tahoma, Verdana, Arial;
+	color: #FFFFFF;
+	white-space: nowrap;
+	font-weight: normal;
+    padding: 4px 0px 5px 0px;
+}
+.dxpcModalBackground_RedWine
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxpcLoadingPanel_RedWine
+{
+	font: 9pt Tahoma;
+	color: #767676;
+}
+.dxpcLoadingPanel_RedWine 
+{
+    background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxpcLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+} 
+.dxcpLoadingDiv_RedWine
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Disabled */
+.dxpcDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxRoundPanel -- */
+.dxrpControl_RedWine td.dxrp,
+.dxrpControlGB_RedWine td.dxrp
+{
+	font-size: 9pt;
+	color: #000000;	
+	font-family: Tahoma, Verdana, Arial;
+}
+/* Header */
+.dxrpControl_RedWine .dxrpHeader_RedWine td.dxrp, 
+.dxrpControlGB_RedWine span.dxrpHeader_RedWine
+{
+	font-family: Tahoma, Verdana, Arial;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 0px;
+}
+.dxrpControl_RedWine .dxrpHI,
+.dxrpControl_RedWine .dxrpHeader_RedWine,
+.dxrpControl_RedWine .dxrpHeader_RedWine td.dxrp
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControlGB_RedWine span.dxrpHeader_RedWine
+{
+	color: Black;
+}
+/* Header image */
+.dxrpControl_RedWine .dxrpHI
+{
+    padding-right: 4px;
+}
+.dxrpControl_RedWine .dxrpHIR
+{
+    padding-left: 4px;
+}
+/* Content */
+.dxrpControl_RedWine .dxrpcontent,
+.dxrpControlGB_RedWine .dxrpcontent
+{
+	vertical-align: top;
+}
+/* Edges */
+.dxrpControl_RedWine .dxrpHeader_RedWine,
+.dxrpControl_RedWine .dxrpTE,
+.dxrpControl_RedWine .dxrpHLE,
+.dxrpControl_RedWine .dxrpHRE
+{
+	background-color: #D45582;
+}
+.dxrpControl_RedWine .dxrpcontent,
+.dxrpControl_RedWine .dxrpNHTE,
+.dxrpControl_RedWine .dxrpLE,
+.dxrpControl_RedWine .dxrpRE,
+.dxrpControl_RedWine .dxrpBE,
+.dxrpControlGB_RedWine .dxrpcontent,
+.dxrpControlGB_RedWine .dxrpNHTE,
+.dxrpControlGB_RedWine .dxrpLE,
+.dxrpControlGB_RedWine .dxrpRE,
+.dxrpControlGB_RedWine .dxrpBE,
+.dxrpControlGB_RedWine span.dxrpHeader_RedWine
+{
+	background-color: #F2F2F2;
+}
+.dxrpControl_RedWine .dxrpTE
+{
+	border-top: 1px solid #8A0A37;
+}
+.dxrpControl_RedWine .dxrpNHTE,
+.dxrpControlGB_RedWine .dxrpNHTE
+{
+	border-top: 1px solid DarkGray;
+}
+.dxrpControl_RedWine .dxrpLE,
+.dxrpControlGB_RedWine .dxrpLE
+{
+	border-left: 1px solid DarkGray;
+}
+.dxrpControl_RedWine .dxrpRE,
+.dxrpControlGB_RedWine .dxrpRE
+{
+	border-right: 1px solid DarkGray;
+}
+.dxrpControl_RedWine .dxrpHLE
+{
+	border-left: 1px solid #8A0A37;
+}
+.dxrpControl_RedWine .dxrpHRE
+{
+	border-right: 1px solid #8A0A37;
+}
+.dxrpControl_RedWine .dxrpHeader_RedWine,
+.dxrpControl_RedWine .dxrpHLE,
+.dxrpControl_RedWine .dxrpHRE
+{
+	border-bottom: 1px solid #8A0A37;
+}
+.dxrpControl_RedWine .dxrpBE,
+.dxrpControlGB_RedWine .dxrpBE
+{
+	border-bottom: 1px solid DarkGray;
+}
+.dxrpControl_RedWine .dxrpHeader_RedWine
+{
+	background: #D45582 url('rpHeaderBackground_T.gif') repeat-x left top;
+}
+.dxrpControl_RedWine .dxrpHLE
+{
+	background: #D45582 url('rpHeaderLeftEdge_T.gif') no-repeat left top;
+}
+.dxrpControl_RedWine .dxrpHRE
+{
+	background: #D45582 url('rpHeaderRightEdge_T.gif') no-repeat left top;
+}
+.dxrpControl_RedWine .dxrpTE
+{
+	background: #D45582 url('rpTopEdge_T.gif') repeat-x left top;
+}
+.dxrpControl_RedWine .dxrpNHTE,
+.dxrpControlGB_RedWine .dxrpNHTE
+{
+	background: F2F2F2 url('rpNoHeaderTopEdge.gif') repeat-x left top;
+}
+.dxrpControl_RedWine .dxrpLE,
+.dxrpControlGB_RedWine .dxrpLE
+{
+	background: #F2F2F2 url('rpLeftEdge.gif') repeat-y left top;
+}
+.dxrpControl_RedWine .dxrpRE,
+.dxrpControlGB_RedWine .dxrpRE
+{
+	background: #F2F2F2 url('rpRightEdge.gif') repeat-y left top;
+}
+.dxrpControl_RedWine .dxrpBE,
+.dxrpControlGB_RedWine .dxrpBE
+{
+	background: #F2F2F2 url('rpBottomEdge.gif') repeat-x left top;
+}
+/* Disabled */
+.dxrpDisabled_RedWine,
+.dxrpDisabled_RedWine td.dxrp
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_RedWine a
+{
+	color: #8A0A37;
+}
+.dxsmControl_RedWine a:hover
+{
+    text-decoration: underline;
+    color: #BE458B;
+}
+.dxsmControl_RedWine a:visited
+{
+    color: #928489;
+}
+
+.dxsmControl_RedWine 
+{	
+	color: #8A0A37;
+	background-color: #FFFFFF;
+	font-family: Tahoma, Arial;
+	font-size: 8pt;
+	border: 0px;	
+	text-decoration: none;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_RedWine,
+.dxsmCategoryLevel_RedWine a
+{
+	color: #8A0A37;
+    font-weight: bold;
+    font-size: 13.5pt;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+.dxsmCategoryLevel_RedWine
+{
+    white-space: nowrap;
+    padding: 0px 0px 5px 0px;
+
+    border-bottom: Solid 1px #8A0A37;    
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_RedWine,
+.dxsmLevelCategoryFlow_RedWine a
+{
+    color: #8A0A37;    
+    font-weight: bold;
+    font-size: 13.5pt;
+    font-family: Tahoma, Verdana, Arial;	
+	text-decoration: underline;
+}
+/* - Level 0 - */
+.dxsmLevel0_RedWine,
+.dxsmLevel0_RedWine a,
+.dxsmLevel0Categorized_RedWine a,
+.dxsmLevel0Categorized_RedWine
+{
+    color: #8A0A37!important;
+    text-decoration: none!important;
+	font-weight: normal;
+    font-size: 12pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;
+}
+.dxsmLevel0_RedWine,
+.dxsmLevel0Categorized_RedWine
+{
+    white-space: nowrap;
+    padding: 0px 0px 1px 0px;
+}
+.dxsmLevel0_RedWine
+{
+    border-bottom: Solid 2px #C3C3C3;
+    padding: 0px 0px 1px 0px;
+}
+
+ /*flow layout*/
+.dxsmLevel0Flow_RedWine,
+.dxsmLevel0Flow_RedWine a,
+.dxsmLevel0CategorizedFlow_RedWine a,
+.dxsmLevel0CategorizedFlow_RedWine
+{
+    color: #8A0A37;    
+    font-family: Tahoma, Verdana, Arial;	
+    font-weight: normal;
+    font-size: 12pt;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_RedWine
+{
+    padding: 0px 0px 0px 0px;    
+}
+.dxsmLevel0Flow_RedWine
+{
+    text-decoration: none;    
+}
+
+/* - Level 1 - */
+.dxsmLevel1_RedWine,
+.dxsmLevel1_RedWine a,
+.dxsmLevel1Categorized_RedWine a,
+.dxsmLevel1Categorized_RedWine
+{    
+    color: #8A0A37;  
+    font-size: 9pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;    
+}
+.dxsmLevel1_RedWine,
+.dxsmLevel1Categorized_RedWine
+{
+    white-space: nowrap;  
+    padding: 0px 0px 0px 0px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_RedWine,
+.dxsmLevel1Flow_RedWine a,
+.dxsmLevel1CategorizedFlow_RedWine,
+.dxsmLevel1CategorizedFlow_RedWine a
+{    
+    color: #8A0A37;    
+    font-family: Tahoma, Verdana, Arial;	
+    font-size: 9pt;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_RedWine
+{
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_RedWine,
+.dxsmLevel2_RedWine a,
+.dxsmLevel2Categorized_RedWine a,
+.dxsmLevel2Categorized_RedWine
+{    
+    color: #8A0A37;
+    font-size: 9pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;    
+}
+.dxsmLevel2_RedWine,
+.dxsmLevel2Categorized_RedWine
+{
+    white-space: nowrap;
+    padding: 0px 0px 0px 0px;    
+}
+/*flow layout*/
+.dxsmLevel2Flow_RedWine,
+.dxsmLevel2Flow_RedWine a
+{
+    color: #8A0A37;
+    font-size: 9pt;    
+    font-family: Tahoma, Verdana, Arial;	
+	text-decoration:underline;    
+}
+.dxsmLevel2Flow_RedWine
+{
+    padding: 0px 0px 0px 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_RedWine,
+.dxsmLevel3_RedWine a
+{    
+    color: #8A0A37;
+    font-size: 9pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;    
+}
+.dxsmLevel3_RedWine
+{
+    white-space: nowrap;        
+    padding: 0px 0px 0px 0px;    
+}
+/*flow layout*/
+.dxsmLevel3Flow_RedWine,
+.dxsmLevel3Flow_RedWine a
+{    
+    color: #8A0A37;
+    font-size: 9pt;
+    font-family: Tahoma, Verdana, Arial;	
+	text-decoration: underline;    
+}
+/* - Level 4 - */
+.dxsmLevel4_RedWine,
+.dxsmLevel4_RedWine a
+{    
+    color: #8A0A37;
+    font-size: 9pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;    
+}
+.dxsmLevel4_RedWine
+{
+    white-space: nowrap;
+    padding: 0px 0px 0px 0px;    
+}
+/*flow layout*/
+.dxsmLevel4Flow_RedWine,
+.dxsmLevel4Flow_RedWine a
+{
+    color: #8A0A37;
+    font-family: Tahoma, Verdana, Arial;	
+    font-size: 9pt;
+	text-decoration: underline;        
+}
+.dxsmLevel4Flow_RedWine
+{
+    padding: 0px 0px 0px 0px;        
+}
+/* - Other Levels - */
+.dxsmLevelOther_RedWine
+{    
+    color: #8A0A37;
+    font-size: 9pt;
+	font-family: Tahoma, Arial;
+    text-decoration: none;    
+}
+.dxsmLevelOther_RedWine
+{
+    white-space: nowrap;
+    padding: 0px 0px 0px 0px;            
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_RedWine,
+.dxsmLevelOtherFlow_RedWine a
+{
+    color: #8A0A37;
+    font-family: Tahoma, Verdana, Arial;	
+    font-size: 9pt;
+	text-decoration: underline;            
+}
+/* Disabled */
+.dxsmDisabled_RedWine
+{
+	color: #808080;
+	cursor: default;
+}
+
+/* -- ASPxTabControl, ASPxPageControl -- */
+.dxtcControl_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #000000;
+}
+.dxtcLoadingPanel_RedWine
+{
+    font: 9pt Tahoma;
+	color: #767676;
+}
+.dxtcLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+
+/* Tab Hyperlink*/
+.dxtcTab_RedWine a,
+.dxtcTabWithTabPositionLeft_RedWine a,
+.dxtcTabWithTabPositionBottom_RedWine a,
+.dxtcTabWithTabPositionRight_RedWine a,
+.dxtcActiveTab_RedWine a,
+.dxtcActiveTabWithTabPositionBottom_RedWine a,
+.dxtcActiveTabWithTabPositionLeft_RedWine a,
+.dxtcActiveTabWithTabPositionRight_RedWine a,
+.dxtcTabHover_RedWine a,
+.dxtcTabHoverWithTabPositionBottom_RedWine a,
+.dxtcTabHoverWithTabPositionLeft_RedWine a,
+.dxtcTabHoverWithTabPositionRight_RedWine a
+{
+	text-decoration: none;
+	color: #000000;    
+}
+/* Active Tab */
+.dxtcActiveTab_RedWine,
+.dxtcActiveTabWithTabPositionBottom_RedWine,
+.dxtcActiveTabWithTabPositionLeft_RedWine,
+.dxtcActiveTabWithTabPositionRight_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	border: Solid 1px #A74768;
+	padding: 3px 10px 5px 10px;
+	background-color: #F2F2F2;
+
+	text-align: center;
+}
+.dxtcActiveTabWithTabPositionLeft_RedWine
+{
+	text-align: left;
+	padding: 4px 9px 6px 5px;
+}
+.dxtcActiveTabWithTabPositionRight_RedWine
+{
+	text-align: left;
+	padding: 4px 9px 6px 5px;
+}
+.dxtcActiveTab_RedWine table.dxtc,
+.dxtcActiveTabWithTabPositionBottom_RedWine table.dxtc,
+.dxtcActiveTabWithTabPositionLeft_RedWine table.dxtc,
+.dxtcActiveTabWithTabPositionRight_RedWine table.dxtc
+{
+	font: 9pt Tahoma;
+	color: #000000;    
+}
+.dxtcActiveTab_RedWine td.dxtc,
+.dxtcActiveTabWithTabPositionBottom_RedWine td.dxtc,
+.dxtcActiveTabWithTabPositionLeft_RedWine td.dxtc,
+.dxtcActiveTabWithTabPositionRight_RedWine td.dxtc
+{
+	white-space: nowrap;
+    background-color: transparent!important;
+    background-image: url('')!important;
+    border-width: 0px!important;
+    padding: 0px!important;
+}
+.dxtcActiveTabHover_RedWine
+{
+}
+/* Tab */
+.dxtcTab_RedWine,
+.dxtcTabWithTabPositionLeft_RedWine, 
+.dxtcTabWithTabPositionBottom_RedWine,
+.dxtcTabWithTabPositionRight_RedWine
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+    background-color: #D0181F;	
+	border: Solid 1px transparent
+	padding: 4px 10px 6px 10px;
+
+	background-image: url('tcTabTopBack_T.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+
+    text-align: center;
+    
+    -border-color: #000001;
+	-zoom: 1;
+	-filter:progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcTabWithTabPositionBottom_RedWine
+{
+    background-color: #BE7790;
+
+	background-image: url('tcTabBottomBack.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.dxtcTabWithTabPositionLeft_RedWine
+{
+    text-align: left;
+	padding: 4px 9px 6px 6px;
+
+    background-color: #BE7790;
+    
+	background-image: url('tcTabLeftBack.gif');
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.dxtcTabWithTabPositionRight_RedWine
+{
+    text-align: left;
+	padding: 4px 9px 6px 6px;
+
+    background-color: #BE7790;
+    
+	background-image: url('tcTabRightBack.gif');
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.dxtcTab_RedWine table.dxtc,
+.dxtcTabWithTabPositionBottom_RedWine table.dxtc, 
+.dxtcTabWithTabPositionLeft_RedWine table.dxtc,
+.dxtcTabWithTabPositionRight_RedWine table.dxtc
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;    
+}
+.dxtcTab_RedWine td.dxtc,
+.dxtcTabWithTabPositionBottom_RedWine td.dxtc, 
+.dxtcTabWithTabPositionLeft_RedWine td.dxtc,
+.dxtcTabWithTabPositionRight_RedWine td.dxtc
+{
+	white-space: nowrap;
+    background-color: transparent!important;
+    background-image: url('')!important;
+    border-width: 0px!important;
+    padding: 0px!important;
+}
+/* Hover */
+.dxtcTabHover_RedWine,
+.dxtcTabHoverWithTabPositionBottom_RedWine,
+.dxtcTabHoverWithTabPositionLeft_RedWine,
+.dxtcTabHoverWithTabPositionRight_RedWine
+{
+	background-color: #C894C6;
+    border: Solid 1px #6C2668;
+    padding: 4px 10px 6px 10px;
+    
+	background-image: url('tcTabTopHottrackedBack.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.dxtcTabHoverWithTabPositionBottom_RedWine
+{
+	padding: 4px 10px 6px 10px;
+	background-image: url('tcTabBottomHottrackedBack.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.dxtcTabHoverWithTabPositionLeft_RedWine
+{
+    padding: 4px 9px 6px 6px;
+	background-image: url('tcTabLeftHottrackedBack.gif');
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.dxtcTabHoverWithTabPositionRight_RedWine
+{
+    padding: 4px 9px 6px 6px;
+	background-image: url('tcTabRightHottrackedBack.gif');
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.dxtcTabHover_RedWine td.dxtc,
+.dxtcTabHoverWithTabPositionBottom_RedWine td.dxtc,
+.dxtcTabHoverWithTabPositionLeft_RedWine td.dxtc,
+.dxtcTabHoverWithTabPositionRight_RedWine td.dxtc
+{
+	white-space: nowrap;
+    background-color: transparent!important;
+    background-image: none!important;
+    border-width: 0px!important;
+    padding: 0px!important;
+}
+
+.dxtcPageContent_RedWine,
+.dxtcPageContentWithTabPositionBottom_RedWine, 
+.dxtcPageContentWithTabPositionLeft_RedWine,
+.dxtcPageContentWithTabPositionRight_RedWine,
+.dxtcPageContentWithoutTabs_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+	background-color: #F2F2F2;
+
+    border: Solid 1px #A9A9A9!important;
+    border-top-width: 0px!important;
+    vertical-align: top;
+}
+.dxtcPageContentWithTabPositionLeft_RedWine
+{
+    border: Solid 1px #A9A9A9!important;
+    border-left-width: 0px!important;
+}
+.dxtcPageContentWithTabPositionRight_RedWine
+{
+    border: Solid 1px #A9A9A9!important;
+    border-right-width: 0px!important;
+}
+.dxtcPageContentWithTabPositionBottom_RedWine
+{
+    border: Solid 1px #A9A9A9!important;
+    border-bottom-width: 0px!important;
+}
+.dxtcPageContentWithoutTabs_RedWine
+{
+	border: Solid 1px #A9A9A9!important;
+}
+.dxtcContent_RedWine,
+.dxtcContentWithTabPositionBottom_RedWine,
+.dxtcContentWithTabPositionLeft_RedWine,
+.dxtcContentWithTabPositionRight_RedWine
+{
+	font: 9pt Tahoma;
+	color: #000000;
+
+	background-color: #F2F2F2;
+	vertical-align: top;
+}
+.dxtcControl_RedWine td.dxtcTabsCell,
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionBottom,
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionLeft,
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionRight 
+{
+    background-color: #D0181F;
+
+	background-image: url('tcTabTopBack_T.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	
+	border: Solid 1px #A74768;
+	border-bottom-width: 0px;
+}
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionBottom
+{
+    background-color: #BE7790;
+    
+	background-image: url('tcTabBottomBack.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+
+	border: Solid 1px #A74768;
+	border-top-width: 0px;
+}
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionLeft
+{
+    background-color: #BE7790;
+    
+	background-image: url('tcTabLeftBack.gif');
+	background-repeat: repeat-y;
+	background-position: right top;
+
+	border: Solid 1px #A74768;
+	border-right-width: 0px;
+	
+	padding-left: 0px!important;
+}
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionLeft table
+{
+	margin-left: 2px!important;
+}
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionRight
+{
+    background-color: #BE7790;
+    
+	background-image: url('tcTabRightBack.gif');
+	background-repeat: repeat-y;
+	background-position: left top;
+
+	border: Solid 1px #A74768;
+	border-left-width: 0px;
+	
+	padding-right: 0px!important;
+}
+.dxtcControl_RedWine td.dxtcTabsCellWithTabPositionRight table
+{
+	margin-right: 2px!important;
+}
+
+/* Scrolling */
+.dxtcScrollButtonCell_RedWine 
+{
+	border: none;
+	width: 1px;
+}
+.dxtcScrollButtonSeparator_RedWine,
+.dxtcScrollButtonSeparator_RedWine div 
+{
+	height: 1px;
+	width: 1px;
+}
+.dxtcScrollButtonIndent_RedWine, 
+.dxtcScrollButtonIndent_RedWine div 
+{
+	height: 1px;
+	width: 5px;
+}
+.dxtcScrollButton_RedWine 
+{
+	cursor: pointer;
+}
+.dxtcScrollButtonDisabled_RedWine 
+{
+	cursor: default;
+}
+/* Misc */
+.dxtcLeftAlignCell_RedWine,
+.dxtcTabsCellWithTabPositionBottom_RedWine .dxtcLeftAlignCell_RedWine 
+{
+	text-align: left;
+}
+.dxtcRightAlignCell_RedWine,
+.dxtcTabsCellWithTabPositionBottom_RedWine .dxtcRightAlignCell_RedWine 
+{
+	text-align: right;
+}
+/* Disabled */
+.dxtcDisabled_RedWine,
+.dxtcDisabled_RedWine table.dxtc
+{
+	color: #e590ae;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_RedWine 
+{
+	overflow: hidden;
+    float: left;
+}
+.dxtcLite_RedWine .dxtc-strip,
+.dxtcLite_RedWine .dxtc-wrapper 
+{
+    list-style: none outside none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    _overflow: hidden;
+}
+.dxtcLite_RedWine .dxtc-strip,
+.dxtcLite_RedWine .dxtc-wrapper
+ {
+	background: #BE7790 url('tcTabTopBack.gif') repeat-x bottom;
+	border: solid 1px #A74768;
+	border-bottom: none;
+	padding: 2px 0 0 0;
+ }
+.dxtcLite_RedWine .dxtc-wrapper .dxtc-strip
+{
+	padding: 0;
+	background: none;
+	border: none;
+}
+.dxtcLite_RedWine .dxtc-wrapper, 
+.dxtcLite_RedWine .dxtc-tab,
+.dxtcLite_RedWine .dxtc-activeTab,
+.dxtcLite_RedWine .dxtc-leftIndent,
+.dxtcLite_RedWine .dxtc-spacer,
+.dxtcLite_RedWine .dxtc-rightIndent,
+.dxtcLite_RedWine .dxtc-sbWrapper,
+.dxtcLite_RedWine .dxtc-sbIndent,
+.dxtcLite_RedWine .dxtc-sbSpacer
+{
+	display: block;
+    height: 24px;
+
+    margin: 0;
+}
+.dxtcLite_RedWine .dxtc-wrapper
+{
+	height: 26px;
+}
+.dxtcLite_RedWine .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_RedWine .dxtc-tab,
+.dxtcLite_RedWine .dxtc-activeTab
+{
+	background: #BE7790 url('tcTabTopBack.gif') repeat-x bottom;
+	border: solid 1px transparent;
+	border-bottom: solid 1px #BE7790;
+    float: left;
+    overflow: hidden;
+    text-align: center;  
+    white-space: nowrap;  
+
+}
+.dxtcLite_RedWine .dxtc-activeTab
+{
+	background: #F2F2F2;
+    border: solid 1px #A74768;
+    border-bottom-color: #F2F2F2;
+}
+.dxtcLite_RedWine .dxtc-tab a
+{
+	text-decoration: none;
+	color: black; 
+}
+.dxtcLite_RedWine .dxtc-tabHover
+{
+	border: Solid 1px #6C2668;
+	background: #C894C6 url('tcTabTopHottrackedBack.gif') repeat-x top;
+}
+.dxtcLite_RedWine .dxtc-leftIndent,
+.dxtcLite_RedWine .dxtc-spacer,
+.dxtcLite_RedWine .dxtc-rightIndent,
+.dxtcLite_RedWine .dxtc-sbWrapper,
+.dxtcLite_RedWine .dxtc-sbIndent,
+.dxtcLite_RedWine .dxtc-sbSpacer
+{
+    float: left;
+    border-width: 0;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px #002D96;
+    overflow: hidden;
+    
+    _border-top-color: #000001;
+ 	_zoom: 1;  
+	_filter:progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_RedWine .dxtc-spacer
+{
+    width: 1px;
+}
+.dxtcLite_RedWine .dxtc-leftIndent,
+.dxtcLite_RedWine .dxtc-rightIndent
+{
+    width: 5px;
+}
+.dxtcLite_RedWine .dxtc-link
+{
+	padding: 4px 10px 6px;
+	display: block;
+	font-size: 0;
+    text-decoration: none;
+    height: 100%;
+    _float: left;
+}
+.dxtcLite_RedWine .dxtc-text,
+.dxtcLite_RedWine .dxtc-leftIndent,
+.dxtcLite_RedWine .dxtc-rightIndent
+{
+    color: white;    
+	font: 12px Tahoma;	
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.dxtcLite_RedWine .dxtc-activeTab .dxtc-text 
+{
+	color: black;
+}
+.dxtcLite_RedWine .dxtc-img
+{
+	border: none;
+	margin: 0 3px -4px 0;
+	width: 16px;
+	height: 16px;
+}
+.dxtcLite_RedWine.dxtc-rtl .dxtc-img
+{
+	margin: 0 0 -4px 3px;
+} 
+.dxtcLite_RedWine .dxtc-content 
+{
+	color: black;
+	background: #F2F2F2;
+	border: solid 1px;
+	border-color: #A9A9A9 !important;
+    float:left; 
+    clear:left;
+    overflow: hidden;
+    padding: 11px;
+}
+.dxtcLite_RedWine.dxtc-top .dxtc-content 
+{
+	border-top: none !important;
+}
+/* Rtl */
+.dxtcLite_RedWine.dxtc-rtl,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-content,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-strip,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-wrapper,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-rightIndent,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-sbWrapper,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-sbIndent,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-sbSpacer,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-tab,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-activeTab
+{
+	float: right;
+}
+.dxtc-top.dxtc-rtl .dxtc-content,
+.dxtc-bottom.dxtc-rtl .dxtc-strip,
+.dxtc-bottom.dxtc-rtl .dxtc-wrapper
+{
+	clear: right !important;
+}
+.dxtc-left.dxtc-rtl .dxtc-strip 
+{
+	float: left;
+}
+.dxtcLite_RedWine.dxtc-rtl .dxtc-content,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-strip,
+.dxtcLite_RedWine.dxtc-rtl .dxtc-wrapper
+{
+	*float: left;
+}
+.dxtcLite_RedWine.dxtc-rtl .dxtc-content
+{
+	*clear: left !important;
+}
+/* Scrolling */
+.dxtcLite_RedWine .dxtc-sb          
+{	
+	border: none;
+    cursor: pointer;
+    font-size: 0;
+}
+.dxtcLite_RedWine .dxtc-sb img 
+{
+	border: none 0;
+}
+.dxtcLite_RedWine .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_RedWine .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLite_RedWine .dxtc-n
+{
+	_display: inline;
+}
+.dxtcLiteDisabled_RedWine,
+.dxtcLiteDisabled_RedWine .dxtc-text,
+.dxtcLiteDisabled_RedWine .dxtc-activeTab .dxtc-text,
+.dxtcLiteDisabled_RedWine .dxtc-content
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_RedWine.dxtc-bottom .dxtc-wrapper, 
+.dxtcLite_RedWine.dxtc-bottom .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-wrapper
+{
+	background: #BE7790 url('tcTabBottomBack.gif') repeat-x top;
+	border: solid 1px #A74768;
+	border-top: none;
+	padding: 0 0 3px;
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-bottom .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-bottom .dxtc-rightIndent,
+.dxtcLite_RedWine.dxtc-bottom .dxtc-sbWrapper,
+.dxtcLite_RedWine.dxtc-bottom .dxtc-sbIndent,
+.dxtcLite_RedWine.dxtc-bottom .dxtc-sbSpacer
+{
+    border-top: solid 1px #002D96;
+    border-bottom: none;
+    
+    _border-bottom-color: #000001;
+	_zoom: 1;
+	_filter:progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-tab
+{
+	border-top: solid 1px #A74768;
+	background: #BE7790 url('tcTabBottomBack.gif') repeat-x top;
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-activeTab
+{
+	background: #F2F2F2;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #A74768;
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-tabHover
+{
+	background: #BE7790 url('tcTabBottomHottrackedBack.gif') repeat-x top;
+}
+.dxtcLite_RedWine.dxtc-bottom .dxtc-content
+{
+	clear: right;
+	background-position: left bottom;
+    border: solid 1px #002D96;
+    border-bottom: none !important;
+}
+/* left */
+.dxtcLite_RedWine.dxtc-left .dxtc-strip
+{
+	background: #BE7790 url('tcTabLeftBack.gif') repeat-y right top;
+	border: Solid 1px #A74768;
+	border-right-width: 0px;
+	
+	padding: 0 0 0 2px;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-tab,
+.dxtcLite_RedWine.dxtc-left .dxtc-activeTab,
+.dxtcLite_RedWine.dxtc-left .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-left .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-left .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+	
+	*float: left;
+	*clear: both;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-tab
+{
+	background: #BE7790 url('tcTabLeftBack.gif') repeat-y right top;
+	border: solid 1px transparent;
+	border-right: solid 1px #A74768;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-activeTab
+{        
+	background: #F2F2F2; 
+    border: solid 1px #A74768;
+    border-right: solid 1px #F2F2F2;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-tabHover
+{
+	border:1px solid #6C2668;
+	background: #C894C6 url('tcTabLeftHottrackedBack.gif') repeat-y left top;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-link
+
+{
+	padding: 4px 9px 6px 6px;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-left .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-left .dxtc-rightIndent
+{
+	border: none 0;
+    border-right: solid 1px #002D96;
+    border-left: solid 1px transparent;
+    width: auto;
+    
+    _border-left-color: #000001;
+	_zoom: 1;
+	_filter:progid:DXImageTransform.Microsoft.Chroma(color=#000001);	
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-left .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_RedWine.dxtc-left .dxtc-content
+{
+	background: #F2F2F2 ;
+    border: solid 1px #A9A9A9 !important;
+    border-left: none !important;
+    float: left;
+    clear: none;
+}
+/* right */
+.dxtcLite_RedWine.dxtc-right .dxtc-strip
+{
+	background: #BE7790 url('tcTabRightBack.gif') repeat-y left top;
+	border: Solid 1px #A74768;
+	border-left: none;
+	
+	padding: 0 2px 0 0;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-tab,
+.dxtcLite_RedWine.dxtc-right .dxtc-activeTab,
+.dxtcLite_RedWine.dxtc-right .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-right .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-right .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+	
+	*float: left;
+	*clear: both;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-tab
+{
+	border: solid 1px transparent;
+	border-left: solid 1px #A74768;
+	background: #BE7790 url('tcTabRightBack.gif') repeat-y left top;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-activeTab
+{            
+	background: #F2F2F2; 
+    border: solid 1px #A74768;
+    border-left: solid 1px #F2F2F2;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-link
+
+{
+	padding: 4px 9px 6px 6px;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-tabHover
+{
+	border:1px solid #6C2668;
+	background: #C894C6 url('tcTabLeftHottrackedBack.gif') repeat-y right top;	
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-right .dxtc-spacer,
+.dxtcLite_RedWine.dxtc-right .dxtc-rightIndent
+{
+	border: none 0;
+    border-left: solid 1px #002D96;
+    border-right: solid 1px transparent;
+    
+    _border-right-color: #000001;
+	_zoom: 1;
+	_filter:progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-leftIndent,
+.dxtcLite_RedWine.dxtc-right .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_RedWine.dxtc-right .dxtc-content
+{
+	background: #F2F2F2; 
+    border: solid 1px #A74768;
+    border-left: none;
+    border-right: none !important;
+    float: left;
+    clear: none;
+}
+/* Services rules */
+.dxtcLite_RedWine.dxtc-noTabs .dxtc-content
+{
+	border: solid 1px #CCCCCC !important;
+} 
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_RedWine a
+{
+	color: #8A0A37;
+}
+.dxtiControl_RedWine a:hover
+{
+    text-decoration: underline;
+    color: #BE458B;
+}
+.dxtiControl_RedWine a:visited
+{
+    color: #928489;
+}
+
+.dxtiControl_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #8A0A37;
+    text-decoration: none;
+    font-weight: normal;
+	background-color: #FFFFFF;
+	border: 0px;
+}
+.dxtiLoadingPanel_RedWine {
+    font: 9pt Tahoma;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxtiLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxtiItem_RedWine,
+.dxtiItem_RedWine a
+{
+    font-weight: normal;
+    text-decoration: none;
+	color: #8A0A37;
+	font: 9pt Tahoma;
+}
+.dxtiItem_RedWine
+{
+	white-space: nowrap;
+}
+.dxtiGroupHeader_RedWine,
+.dxtiGroupHeaderCategorized_RedWine
+{
+	font: 12pt Tahoma;
+
+	width: 1%; 
+	color: #FFFFFF; 
+	height: 1%; 
+	background-color: #8A0A37;
+    padding: 3px 16px 4px 7px; 
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_RedWine
+{
+	color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 0px;
+}
+.dxtiGroupHeaderTextCategorized_RedWine
+{
+    text-decoration: none;
+    font-weight: normal;
+}
+.dxtiGroupHeaderTextCategorized_RedWine
+{
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_RedWine
+{
+    text-decoration: none;
+    font-weight: normal;
+
+    font: 7pt Tahoma;
+
+    color: #727272;
+}
+.dxtiFilterBoxEdit_RedWine
+{
+    font-size: 9pt;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 193px;
+    border: Solid 1px #BC758E;
+    padding: 3px 5px 3px 5px;
+}
+.dxtiFilterBox_RedWine,
+.dxtiFilterBox_RedWine table
+{
+    color: #727272;
+    font-weight: normal;
+    text-decoration: none;
+    font: 9pt Tahoma;
+}
+.dxtiFilterBox_RedWine
+{
+    background-color: #EBEBEB;
+    padding: 13px;    
+    border: Solid 1px #D5D5D5;
+    border-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;    
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_RedWine
+{
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: Solid 1px #BC758E;
+}
+.dxtiIndexPanelItem_RedWine,
+.dxtiIndexPanelItem_RedWine a,
+.dxtiCurrentIndexPanelItem_RedWine
+{
+    color: #8A0A37;
+    text-decoration: none;
+}
+.dxtiIndexPanelItem_RedWine,
+.dxtiCurrentIndexPanelItem_RedWine
+{
+    padding: 2px 2px 2px 3px;
+}
+.dxtiCurrentIndexPanelItem_RedWine
+{
+    color: #FFFFFF;
+    background-color: #8A0A37;
+    padding: 2px 5px 2px 5px;
+}
+/* - BackToTop - */
+.dxtiBackToTop_RedWine,
+.dxtiBackToTop_RedWine a
+{
+    font-size: 7pt;
+    text-decoration: none;
+    color: #8A0A37;
+}
+.dxtiBackToTop_RedWine
+{
+    padding: 0px 0px 12px 98px;
+}
+.dxtiBackToTopRtl_RedWine
+{
+    padding: 0 98px 12px 0;
+}
+/* Disabled */
+.dxtiDisabled_RedWine
+{
+	color: #bcaab0;
+	cursor: default;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_RedWine,
+.dxucProgressBar_RedWine td
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 9pt;
+    color: Black;
+}
+.dxucProgressBar_RedWine .dxucPBMainCell,
+.dxucProgressBar_RedWine td.dx
+{
+    padding: 0;
+}
+.dxucProgressBar_RedWine
+{
+    border: Solid 1px #8A0A37;
+    background-color: #AA1248;
+	background-image: url('ucProgressBack.gif');
+    background-repeat: repeat-x;    
+}
+.dxucProgressBarIndicator_RedWine
+{
+    background-color: #F1E4E9;
+	background-image: url('ucProgressIndicatorBack.gif');
+    background-repeat: repeat-x;    
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_RedWine,
+.dxsplVSeparator_RedWine,
+.dxsplHSeparator_RedWine
+{
+	background-color: White;
+}
+.dxsplControl_RedWine,
+.dxsplVSeparator_RedWine,
+.dxsplHSeparator_RedWine,
+.dxsplPane_RedWine,
+.dxsplPaneCollapsed_RedWine,
+.dxsplVSeparator_RedWine,
+.dxsplHSeparator_RedWine,
+.dxsplVSeparatorCollapsed_RedWine,
+.dxsplHSeparatorCollapsed_RedWine
+{
+	border: solid 0px #A9A9A9;
+}
+.dxsplPane_RedWine,
+.dxsplPaneCollapsed_RedWine
+{
+	border-width: 1px;
+	background-color: #F2F2F2;
+}
+.dxsplPaneCollapsed_RedWine
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparatorHover_RedWine
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_RedWine
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_RedWine
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparatorCollapsed_RedWine
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorCollapsed_RedWine,
+.dxsplHSeparatorCollapsed_RedWine
+{
+	cursor: default !important;
+}
+.dxsplVSeparatorButton_RedWine
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_RedWine
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplVSeparatorHover_RedWine,
+.dxsplHSeparatorHover_RedWine,
+.dxsplVSeparatorButtonHover_RedWine,
+.dxsplHSeparatorButtonHover_RedWine
+{
+	background-color: #DBBBDA;
+}
+.dxsplResizingPointer_RedWine
+{
+	background-image: url('splResizingPointer.gif');
+	background-repeat: repeat;
+}
+.dxsplResizingPointer_RedWine,
+.dxsplS
+{
+	font-size: 0px;
+	line-height: 0px;
+}
+.dxsplLCC,
+.dxsplCC,
+.dxsplS
+{
+	overflow: hidden;
+}
+.dxsplLCC,
+.dxsplCC,
+.dxsplP
+{
+	width: 100%;
+	height: 100%;
+}
+.dxsplLCC
+{
+	padding: 8px 8px 8px 8px;
+}
+
+.dx-clear
+{
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+/* menuButtons_Aqua and menuLinks_Aqua uses in XAF */
+.menuButtons_RedWine 
+{
+	font: 9pt Tahoma;
+	color: #FFFFFF;
+	background:none repeat scroll 0 0 transparent !important;
+}
+
+.menuButtons_RedWine .dxmMenuSeparator_RedWine .dx,
+.menuButtons_RedWine .dxmMenuFullHeightSeparator_RedWine .dx 
+{
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+.menuButtons_RedWine .dxmMenuSeparator_RedWine,
+.menuButtons_RedWine .dxmMenuFullHeightSeparator_RedWine
+{
+	width: 1px;
+	background: none;
+}
+
+.menuButtons_RedWine .dxmMenuSeparator_RedWine .dx,
+.menuButtons_RedWine .dxmMenuFullHeightSeparator_RedWine .dx,
+.menuButtons_RedWine .dxmMenuVerticalSeparator_RedWine
+{
+	background: none;
+	width: 5px;
+}
+.menuButtons_RedWine .dxmMenuSeparator_RedWine
+{
+	display: none;
+}
+.menuButtons_RedWine .dxmMenuVerticalSeparator_RedWine
+{
+	width: 100%;
+	height: 1px;
+}
+
+.menuButtons_RedWine .dxmMenuItem_RedWine,
+.menuButtons_RedWine .dxmMenuItemWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemWithImageWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItem_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmMenuLargeItem_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemWithImageWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItem_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine
+{
+	font-size: 9pt;
+	font-family: Tahoma;				    
+	font-weight:normal;
+	vertical-align: middle;	 		
+	background: #F0749F url('Editors/edtButtonBack.gif') top;
+	background-repeat:repeat-x;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 11px;
+	cursor: pointer;
+	color: #FFFFFF;
+	border: solid 1px #8A0A37;
+}
+.menuButtons_RedWine .dxmMenuItemHover_RedWine,
+.menuButtons_RedWine .dxmMenuItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemHoverWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmVerticalMenuItemHover_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemHoverWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmMenuLargeItemHover_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemHoverWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmVerticalMenuLargeItemHover_RedWine,
+.menuButtons_RedWine  .dxmVerticalMenuLargeItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+	color: #FFFFFF;  
+	background: #D69BD3 url('Editors/edtButtonHoverBack.gif') top;
+	background-repeat: repeat-x;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 11px;	
+	font-size: 9pt;
+	font-family: Tahoma;				    
+	font-weight:normal;
+	vertical-align: middle;	 		
+	border: solid 1px #6C2668;
+	cursor: pointer;
+}
+.menuButtons_RedWine .dxmMenuItemWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemWithImageWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmMenuLargeItemWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemWithImageWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmVerticalMenuItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmMenuLargeItemHoverWithImage_RedWine,
+.menuButtons_RedWine .dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine, 
+.menuButtons_RedWine .dxmVerticalMenuLargeItemHover_RedWine,
+.menuButtons_RedWine .dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+    padding-top: 2px !important;
+	padding-bottom: 1px !important;	
+}
+
+.menuLinks_RedWine
+{
+	font: 9pt Tahoma;
+	background:none repeat scroll 0 0 transparent !important;
+	border: 0px !important;
+}
+
+.menuLinks_RedWine .dxmMenuItemHover_RedWine a,
+.menuLinks_RedWine .dxmMenuItemHoverWithImage_RedWine a,
+.menuLinks_RedWine .dxmMenuItemHoverWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuItemHoverWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemHover_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemHover_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHover_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine a
+{
+	color: #BE458B !important;
+	text-decoration: underline;
+}
+
+.menuLinks_RedWine .dxmMenuItemHover_RedWine,
+.menuLinks_RedWine .dxmMenuItemHoverWithImage_RedWine,
+.menuLinks_RedWine .dxmMenuItemHoverWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuLinks_RedWine .dxmVerticalMenuItemHover_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemHoverWithImageWithPopOutImage_RedWine, 
+.menuLinks_RedWine .dxmMenuLargeItemHover_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithImage_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemHoverWithImageWithPopOutImage_RedWine, 
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHover_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_RedWine
+{
+	background: none repeat scroll 0 0 transparent;
+	padding-right: 5px;
+	padding-left: 11px;	
+	font-size: 9pt;
+	font-family: Tahoma;				    
+	font-weight:normal;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 0px;
+}
+
+.menuLinks_RedWine .dxmMenuItem_RedWine a,
+.menuLinks_RedWine .dxmMenuItem_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuItemWithImage_RedWine a,
+.menuLinks_RedWine .dxmMenuItemWithImage_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuItemWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuItemWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuItemWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuItemWithImageWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuItem_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItem_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuItemWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImageWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuLargeItem_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItem_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuLargeItemWithImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemWithImage_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuLargeItemWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmMenuLargeItemWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmMenuLargeItemWithImageWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuLargeItem_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItem_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithPopOutImage_RedWine a:visited,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine a,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine a:visited
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+
+.menuLinks_RedWine .dxmMenuItem_RedWine,
+.menuLinks_RedWine .dxmMenuItemWithImage_RedWine,
+.menuLinks_RedWine .dxmMenuItemWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmMenuItemWithImageWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItem_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuItemWithImageWithPopOutImage_RedWine, 
+.menuLinks_RedWine .dxmMenuLargeItem_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemWithImage_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmMenuLargeItemWithImageWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItem_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithPopOutImage_RedWine,
+.menuLinks_RedWine .dxmVerticalMenuLargeItemWithImageWithPopOutImage_RedWine
+{
+	font-size: 9pt;
+	font-family: Tahoma;				    
+	font-weight:normal;
+	vertical-align: middle;	 		
+	background: none repeat scroll 0 0 transparent;
+	padding-right: 5px;
+	padding-left: 11px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	cursor: pointer;
+}
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_RedWine .dxm-item,
+.menuLinks_RedWine .dxm-hovered,
+.menuLinks_RedWine .dxm-disabled
+{
+	border: none !important;
+	background: none !important;
+}
+.menuLinks_RedWine .dxm-content,
+.menuLinks_RedWine .dxm-hovered .dxm-content,
+.menuLinks_RedWine .dxm-disabled .dxm-content
+{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.menuLinks_RedWine .dxm-popOut,
+.menuLinks_RedWine .dxm-hovered .dxm-popOut,
+.menuLinks_RedWine .dxm-disabled .dxm-popOut
+{
+	padding-top: 3px !important;
+	padding-bottom: 0px !important;
+}
+.menuLinks_RedWine .dxm-separator b
+{
+	margin-top: 2px !important;
+}
+.menuLinks_RedWine .dxm-image,
+.menuLinks_RedWine .dxm-hovered .dxm-image,
+.menuLinks_RedWine .dxm-disabled .dxm-image
+{
+	vertical-align: text-top;
+	display:block;
+	border: none !important;
+	float: left;
+}
+.menuLinks_RedWine a.dx 
+{
+	text-decoration: underline !important;
+	color: #8A0A37 !important;
+}
+.menuLinks_RedWine .dxm-hovered a.dx 
+{
+	text-decoration: underline !important;
+	color: #BE458B !important;
+}
+.menuLinks_RedWine .dxm-disabled
+{
+	text-decoration: underline !important;
+}
+.menuLinks_RedWine .dxm-popOut,
+.menuLinks_RedWine .dxm-hovered .dxm-popOut,
+.menuLinks_RedWine .dxm-disabled .dxm-popOut
+{
+	border-left: none !important;
+}
+.menuLinks_RedWine .dxm-dropDownMode .dxm-content 
+{
+	padding-right: 3px !important;
+}
+
+
+
+.menuButtons_RedWine .dxm-item,
+.menuButtons_RedWine .dxm-hovered,
+.menuButtons_RedWine .dxm-disabled
+{
+	border: none;
+	background: none !important;
+}
+.menuButtons_RedWine .dxm-content
+{
+	border-width: 1px !important;	
+}
+.menuButtons_RedWine .dxm-content,
+.menuButtons_RedWine .dxm-hovered .dxm-content,
+.menuButtons_RedWine .dxm-disabled .dxm-content
+{
+	padding-top: 2px !important;
+	padding-bottom: 1px !important;
+}
+.menuButtons_RedWine .dxm-noImages .dxm-content,
+.menuButtons_RedWine .dxm-noImage .dxm-content,
+.menuButtons_RedWine .dxm-noImage .dxm-hovered .dxm-content,
+.menuButtons_RedWine .dxm-noImage .dxm-disabled .dxm-content
+{
+	padding-top: 2px !important;
+	padding-bottom: 3px !important;
+}
+.menuButtons_RedWine .dxm-popOut,
+.menuButtons_RedWine .dxm-hovered .dxm-popOut,
+.menuButtons_RedWine .dxm-disabled .dxm-popOut
+{
+	padding: 6px 11px 6px 10px !important;
+	border-width: 1px 1px 1px 0px !important;
+}
+.menuButtons_RedWine .dxm-item .dxm-content,
+.menuButtons_RedWine .dxm-item .dxm-popOut
+{
+	color: #FFFFFF;
+	border: solid #8A0A37;
+	background: #F0749F url('Editors/edtButtonBack.gif') repeat-x top;
+}
+.menuButtons_RedWine .dxm-hovered .dxm-content,
+.menuButtons_RedWine .dxm-hovered .dxm-popOut
+{
+	color: #FFFFFF;
+	border: solid #6C2668;
+	background: #D69BD3 url('Editors/edtButtonHoverBack.gif') repeat-x top;
+}
+
+
+/* -- ASPxTreeView -- */
+.dxtvControl_RedWine
+{
+	float: left;
+}
+
+.dxtvControl_RedWine li 
+{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 9pt;
+	overflow-y: hidden;	
+}
+
+.dxtvControl_RedWine ul 
+{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_RedWine a {
+	text-decoration:none;
+	color: Black;	
+}
+
+.dxtvControl_RedWine .dxtv-ln
+{
+	background-image: url('tvLine.gif');
+	background-repeat: repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_RedWine .dxtv-nd
+{
+    margin-top: 1px;
+	float: left;
+	padding: 1px;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: Black;
+	outline: 0 none;
+}
+
+.dxtvControl_RedWine .dxtv-elbNoLn,
+.dxtvControl_RedWine .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_RedWine .dxtv-elb
+{
+	background-image: url('tvElbow.gif');
+	background-repeat:no-repeat;    
+}
+
+.dxtvControl_RedWine .dxtv-btn 
+{
+	margin-left: 8px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.dxtvControl_RedWine .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_RedWine .dxtv-ndImg 
+{
+	padding-left: 5px;
+	float: left;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.dxtvControl_RedWine .dxtv-ndTxt 
+{
+	padding: 3px 4px 3px 4px;
+	float: left;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.dxtvControl_RedWine .dxtv-ndChk
+{
+	padding: 0;
+	float: left;
+	vertical-align: middle;
+    cursor: default;
+    margin: 4px 3px 3px 6px;
+    /*for IE6-7*/
+    *margin: 0 0 0 2px;
+}
+  
+.dxtvControl_RedWine .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_RedWine .dxtv-ndSel,
+.dxtvControl_RedWine .dxtv-ndHov 
+{
+	border: solid 1px #FFFFFF;
+	padding: 0;
+}
+
+.dxtvControl_RedWine .dxtv-ndSel
+{
+	background-color: #8A0A37;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.dxtv-ndSel .dxtv-ndTxt,
+.dxtv-ndSel .dxtv-ndImg
+{
+	cursor: default;
+}
+
+.dxtvControl_RedWine .dxtv-ndHov 
+{
+	background-color: #DBBBDA;
+    cursor: pointer;
+}
+
+.dxtv-ndHov .dxtv-ndTxt,
+.dxtv-ndHov .dxtv-ndImg
+{
+	cursor: pointer;
+}
+
+.dxtvControl_RedWine .dxtv-clr,
+.dxtvControl_RedWine .dxtv-clrIE7
+{
+	clear:both;
+	font-size:0;
+	height:0;
+    display:block;
+	visibility:hidden;
+	width:0;
+} 
+
+.dxtvControl_RedWine .dxtv-clr
+{
+	line-height:0;
+}
+
+.dxtvControl_RedWine.dxtvRtl,
+.dxtvControl_RedWine.dxtvRtl .dxtv-nd, 
+.dxtvControl_RedWine.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_RedWine.dxtvRtl .dxtv-elb,
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndTxt, 
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndImg, 
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndChk,
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndTmpl
+{
+    float: right;
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-elb,
+.dxtvControl_RedWine.dxtvRtl .dxtv-ln 
+{
+    background-position: right top;
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-elb
+{
+    background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-btn 
+{
+    margin: 3px 8px 0 0;
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-subnd 
+{
+    margin: 0 22px 0 0;
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndImg 
+{
+    padding: 0 5px 0 0;
+}
+
+.dxtvControl_RedWine.dxtvRtl .dxtv-ndChk
+{
+    margin: 4px 6px 3px 3px;
+    /*for IE6-7*/
+    *margin: 0 2px 0 0;
+}
+
+.dxtvControl_RedWine.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+    margin: 3px 0 0 8px;
+}
+
+.dxtvControl_RedWine.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+    overflow-x: hidden;
+}
+
+.dxtvDisabled_RedWine,
+.dxtvControl_RedWine .dxtvDisabled_RedWine,
+.dxtvDisabled_RedWine a,
+.dxtvDisabled_RedWine .dxtv-ndTxt,
+.dxtvDisabled_RedWine .dxtv-ndImg,
+.dxtvDisabled_RedWine .dxtv-btn,
+.dxtvDisabled_RedWine .dxtv-nd
+{
+	color: #bcaab0;
+	cursor: default;
+} 
+
+.dxtvLoadingPanelWithContent_RedWine
+{
+	font: 9pt Tahoma;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: solid 1px #898989;
+}
+.dxtvLoadingPanelWithContent_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+
+.dx-clear
+{
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* ASPxFileManager */
+.dxfmControl_RedWine 
+{
+	font-size: 9pt;
+	font-family: Tahoma;
+	outline: 0px;
+}
+.dxfmDisabled_RedWine
+{
+	color:#ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_RedWine .dxsplControl_RedWine
+{
+	border-width: 1px;
+	border-color: #909AA6;
+}
+.dxfmControl_RedWine .dxsplPane_RedWine
+{
+	border-width: 0px;
+	background-color: White;
+}
+.dxfmControl_RedWine .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_RedWine .dxsplVSeparator_RedWine
+{
+	width:3px;
+	background: White url('fmSplitterSeparator.gif') right;
+	background-repeat:repeat-y;
+	border: 0px;
+}
+.dxfmControl_RedWine .dxsplHSeparator_RedWine
+{
+    border: 0px;
+	background-image: none;
+	background-color: #CB9FB4;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_RedWine .dxtvControl_RedWine 
+{
+	margin-left: -5px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxtv-nd .dxtv-ndTxt 
+{
+	padding-left: 1px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxtv-nd 
+{
+	padding-left: 3px;
+	margin-bottom: 0px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxfm-folderSI
+{
+	border: dotted 1px #888888;
+	padding: 0px 0px 0px 2px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxtv-ndHov
+{
+	border: solid 1px #888888;
+	padding-left: 2px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxtv-ndSel
+{
+	padding-left: 2px;
+}
+.dxfmControl_RedWine .dxtvControl_RedWine .dxtv-ndImg
+{
+	padding: 0px;
+	margin-right: 3px;
+	margin-top: 2px;
+}
+
+/* FileManager - File */
+.dxfmControl_RedWine .dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	
+	padding: 5px;
+	margin: 5px;
+}
+.dxfmDisabled_RedWine .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_RedWine .dxfm-fileSI
+{
+	border: dotted 1px #888888;
+}
+.dxfmControl_RedWine .dxfm-fileSA
+{
+	color: White;
+	background-color: #8A0A37;
+	border: solid 1px White;
+}
+.dxfmControl_RedWine .dxfm-fileH
+{
+	background: #DBBBDA;
+    border: solid 1px #888888;
+}
+.dxfmControl_RedWine .dxfm-content
+{
+	overflow: hidden;
+}
+.dxfmControl_RedWine .dxfm-content div
+{
+	overflow: hidden;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+.dxfmControl_RedWine .dxfm-content div
+{
+	height: 18px;
+}
+.dxfmControl_RedWine .dxfm-content .dxfm-highlight
+{
+	background:none repeat scroll 0 0 #DBBBDA;
+    color:#333333;
+    font-weight:bold;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_RedWine .dxfm-toolbar
+{
+	background: #F27AA4 url('mItemBack.gif') repeat-x left top;
+}
+.dxfmControl_RedWine .dxfm-toolbar.dxsplPane_RedWine table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_RedWine .dxfm-toolbar.dxsplPane_RedWine .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	color: White;
+	white-space: nowrap;
+}
+.dxfmControl_RedWine .dxfm-toolbar.dxsplPane_RedWine .dxfm-filter input
+{
+    border: 1px solid #BC758E;
+	margin: 4px 4px 0px 3px;
+	width: 150px;
+	height: 16px;
+	font: 9pt Tahoma;
+}
+.dxfmControl_RedWine .dxfm-toolbar.dxsplPane_RedWine .dxfm-path input
+{
+    border: 1px solid #BC758E;
+	width: 250px;
+	height: 16px;
+	font: 9pt Tahoma;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_RedWine .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxm-main
+{
+	margin-top: 1px;
+    border-width: 0px;
+    background-color: transparent;
+    background-image: none;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxm-horizontal.dxmtb .dxm-separator 
+{
+	margin: 0px 11px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxfm-path 
+{
+	padding-left: 1px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxfm-path input
+{
+	margin: 1px 8px 0px 4px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmLite_RedWine .dxm-item .dxm-content .dxm-image {
+	margin: 0px;
+}
+
+/* FileManager - Toolbar - Classic */
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine
+{
+	border-width: 0px;
+	background-color: transparent;
+	background-image: none;
+	padding-top: 1px;
+	padding-left: 3px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuSeparator_RedWine 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItemSeparatorSpacing_RedWine 
+{
+	width: 1px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItemSpacing_RedWine 
+{
+	width: 0px;
+	display: block;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItem_RedWine.dxfm-path 
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 3px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItem_RedWine
+{
+	padding-top: 1px;
+	padding-left: 3px;
+	background-image: none;
+	background-color: transparent;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItemWithImage_RedWine
+{
+	background-image: none;
+	background-color: transparent;
+	padding-top: 4px;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxmMenuItemHoverWithImage_RedWine
+{
+	border: Solid 1px #8A0A37;
+	background-color: #D69BD3;
+	background-image: url('mItemHBack.gif');	
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.dxfmControl_RedWine .dxfm-toolbar .dxmMenu_RedWine .dxfm-path input
+{
+	margin: 0px 8px 0px 4px;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_RedWine .dxfm-uploadPanel
+{
+	background-color: #EED8E3;
+	text-align: right;
+}
+.dxfmControl_RedWine .dxfm-uploadPanel.dxsplPane_RedWine table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.dxfmControl_RedWine .dxfm-uploadPanel.dxsplPane_RedWine table.dxfm-uploadPanelTable .dxucControl_RedWine 
+{
+	margin-right: 10px;
+}
+.dxfmControl_RedWine .dxfm-uploadPanel.dxsplPane_RedWine table.dxfm-uploadPanelTable a 
+{
+	color: #1B3F91;
+}
+.dxfmControl_RedWine .dxfm-uploadPanel.dxsplPane_RedWine table.dxfm-uploadPanelTable a.dxfm-uploadDisable 
+{
+	color: #777777;
+	cursor: default;	
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_RedWine .dxfm-cInput,
+.dxfmControl_RedWine .dxfm-rInput
+{
+    border: 1px solid #BC758E;
+	padding: 1px;
+	font: 9pt Tahoma;
+	outline-width: 0px;
+	margin:0px;
+}
+
+/* FileManager - LoadingPanel */
+.dxfmControl_RedWine .dxfmLoadingPanel_RedWine 
+{
+	background-color:white;
+	border:1px solid #9F9F9F;
+	color:#303030;
+	font:9pt Tahoma;
+}
+.dxfmControl_RedWine .dxfmLoadingPanel_RedWine td.dx {
+	padding:12px;
+	text-align:center;
+	white-space:nowrap;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_RedWine .dxpcContent_RedWine 
+{
+	padding: 5px 0px 0px 0px;
+	background-color: White;
+}
+.dxfmControl_RedWine .dxpcContent_RedWine .dxfm-mpFoldersC 
+{
+	overflow:auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_RedWine .dxpcContent_RedWine .dxfm-mpButtonC
+{
+	margin-top: 20px;
+	background-color: #EED8E3;
+	border-top: 1px solid #CB9FB4;
+	padding: 10px;
+	text-align: right;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_RedWine .dxpcContent_RedWine .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
