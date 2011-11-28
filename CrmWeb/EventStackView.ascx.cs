@@ -345,7 +345,7 @@ public partial class EventStackView : System.Web.UI.UserControl
                         </dd>";
         if( Session["TypeUser"].ToString() == "Admin")
         {
-            str += @"<dd><input type=button value=' delete ' alt='This wil remove the entire event.  Please be carefull.'></dd>";
+            str += @"<dd><input type=button onclick=""{16}"" value=' delete ' alt='This wil remove the entire event.  Please be careful.'></dd>";
         }
 
         str += @"</dl>
@@ -396,6 +396,7 @@ public partial class EventStackView : System.Web.UI.UserControl
 
         string AuthorStyle = "text-decoration:none; border-right: 20px solid #" + EventStack.GetUserColor(eventElement.iAssignedUserID) + "; padding-right: 5px; cursor: default;";
         string EventStatusChangeScript = "return OnEventStatusChange(this.value, '" + eventElement.iEventID.ToString() + "');";
+        string EventDeleteScript = "return OnEventDeleteClick('" + eventElement.iEventID.ToString() + "');";
         string POIStyle = "text-decoration:none; cursor: default;";
         string Reminder;
         if (eventElement.dtReminder != null)
@@ -406,7 +407,7 @@ public partial class EventStackView : System.Web.UI.UserControl
         {
             Reminder = " None";
         }
-        string result = string.Format(str, eventElement.iEventID, ClientPostBackUrl, ClientName, ClientPhotoURL, PostDate, UserPostBackUrl, UserName, EventType, DueDate, StatusStyle, EventStatus, Message, AuthorStyle, EventStatusChangeScript, POIStyle, Reminder);
+        string result = string.Format(str, eventElement.iEventID, ClientPostBackUrl, ClientName, ClientPhotoURL, PostDate, UserPostBackUrl, UserName, EventType, DueDate, StatusStyle, EventStatus, Message, AuthorStyle, EventStatusChangeScript, POIStyle, Reminder, EventDeleteScript);
 
         return result;
     }
@@ -506,16 +507,34 @@ public partial class EventStackView : System.Web.UI.UserControl
             FillDueEvents();
     }
 
-    protected void hdnDoAsyncPostback_Click(object sender, EventArgs e)
+    protected void hdnDoAsyncPostbackStatus_Click(object sender, EventArgs e)
     {
         int selectedevent = int.Parse(hdnEventStatusValue.Value);
         string newstatus = hdnEventStatusID.Value;
 
         EventStack.ChangeEventStatus(newstatus, selectedevent);
         FillEventStack();
-        FillDueEvents();
-        FillUsers();
-        FillClients();
+        if (ShowDueEvents)
+            FillDueEvents();
+        if (ShowAddNotes)
+        {
+            FillUsers();
+            FillClients();
+        }
+    }
+
+    protected void hdnDoAsyncPostbackDelete_Click(object sender, EventArgs e)
+    {
+        int selectedevent = int.Parse(hdnEventStatusValue.Value);
+        EventStack.DeleteEvent(hdnEventStatusValue.Value);
+        FillEventStack();
+        if(ShowDueEvents)
+            FillDueEvents();
+        if (ShowAddNotes)
+        {
+            FillUsers();
+            FillClients();
+        }
     }
 
     protected void hdnUserSelected_Click(object sender, EventArgs e)
