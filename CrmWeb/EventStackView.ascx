@@ -156,10 +156,29 @@
 
         $('[id*="hdnEventStatusID"]').val(status);
         $('[id*="hdnEventStatusValue"]').val(eventID);
-        $('[id*="hdnDoAsyncPostback"]').click();
+
+       // alert('<%= hdnDoAsyncPostbackStatus.ClientID %>')
+        document.getElementById('eventStack_hdnDoAsyncPostbackStatus').click();      
+        //$('[id*="hdnDoAsyncPostbackStatus"]').click();
 
         return true;
     }
+
+    function OnEventDeleteClick(eventID) {
+        if (eventID == "")
+            return false;
+        if (confirm("Are you sure you want to delete event " + eventID + "? Note that this change is permanent.") == false)
+            return false;
+        
+        $('[id*="hdnEventStatusID"]').val(status);
+        
+       // alert('<%= hdnDoAsyncPostbackDelete.ClientID %>')
+        document.getElementById('eventStack_hdnDoAsyncPostbackDelete').click();   
+       // $('[id*="hdnDoAsyncPostbackDelete"]').click();
+
+        return true;
+    }
+
     function OnDueEventMouseOver(event) {
         var targetid = "unknown";
         if (event.target.id) {
@@ -193,7 +212,8 @@
     EnableViewState="true">
     <Triggers>
         <asp:AsyncPostBackTrigger ControlID="btnSubmitNote" />
-        <asp:AsyncPostBackTrigger ControlID="hdnDoAsyncPostback" />        
+        <asp:AsyncPostBackTrigger ControlID="hdnDoAsyncPostbackStatus" />           
+        <asp:AsyncPostBackTrigger ControlID="hdnDoAsyncPostbackDelete" />      
         <asp:AsyncPostBackTrigger ControlID="hdnUserSelected" />
     </Triggers>
     <ContentTemplate>
@@ -202,8 +222,11 @@
         <asp:HiddenField ID="hdnSelectedUser" runat="server" />
         <asp:Button ID="hdnUserSelected" runat="server" Text="Button" 
             Style="display: none;" OnClick="hdnUserSelected_Click" />
-        <asp:Button ID="hdnDoAsyncPostback" runat="server" Text="Button" Style="display: none;"
-            OnClick="hdnDoAsyncPostback_Click" />
+        <asp:Button ID="hdnDoAsyncPostbackStatus" runat="server" Text="Button" Style="display: none;"
+            OnClick="hdnDoAsyncPostbackStatus_Click" />
+
+            <asp:Button ID="hdnDoAsyncPostbackDelete" runat="server" Text="Button" Style="display: none;"
+            OnClick="hdnDoAsyncPostbackDelete_Click" />
         <div id="divEventStackView" class="EventStack">
             <h3 class="divEventHeader" id="headerAddEvent" runat="server">
                 Add an Event

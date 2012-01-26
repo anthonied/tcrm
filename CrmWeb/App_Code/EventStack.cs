@@ -87,6 +87,16 @@ public class EventStack
             oConn.Close();
         }
     }
+    public static void DeleteEvent(string eventID)
+    {
+        using (SqlConnection oConn = new SqlConnection(Connect.sConnStr))
+        {
+            oConn.Open();
+            string sSql = "DELETE FROM " + EventStackTable + " WHERE PKiEventID = '" + eventID + "'";
+            int iRet = Connect.getDataCommand(sSql, oConn).ExecuteNonQuery();
+            // TODO: Also delete from reminder tables
+        }
+    }
     public static void CreateNewEvent(Event newevent)
     {
         // Handle nullable clients

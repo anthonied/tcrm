@@ -93,7 +93,14 @@ public partial class pages_assignmentlist : System.Web.UI.Page
         Paragraph paragraph = document.LastSection.AddParagraph();
         DateTime createddate = (DateTime)reader["dtCreated"];
         paragraph.Format.FirstLineIndent = Unit.FromCentimeter(-1.2);
-        paragraph.AddText(eventnum.ToString() + ". " + ((string)reader["sAssignedUserName"])[0].ToString() + ((string)reader["sAssignedUserSurname"])[0].ToString() + ": ");
+
+        // Add suffix for each part of a surname
+        string[] surnameparts = ((string)reader["AssignedSurname"]).Split(' ');
+        string surname = "";
+        foreach (string part in surnameparts)
+            surname += part[0];
+
+        paragraph.AddText(eventnum.ToString() + ". " + ((string)reader["AssignedName"])[0].ToString() + surname + ": ");
         paragraph.Format.LeftIndent = Unit.FromCentimeter(2.5);
         paragraph.AddText((string)reader["sMessage"]);
     }
@@ -112,9 +119,9 @@ public partial class pages_assignmentlist : System.Web.UI.Page
             // Read the list of new clients
             string strQuery;
             if ((string)Session["LoggedInUserID"] == "7")
-                strQuery = "SELECT joined.PKiAssignedUser, joined.sUserName, joined.sUserSurname, joined.PKiClientID, joined.sClientName, joined.sClientNumber, joined.sContactPerson, joined.sTelephone, events.FKsEventType as sEventType, events.sMessage, events.dtCreated, events.FKiUserAssignedID, users.sName as sAssignedUserName, users.sSurname as sAssignedUserSurname FROM events INNER JOIN ( SELECT users.PKiUserID as PKiAssignedUser, users.sName as sUserName, users.sSurname as sUserSurname, existing_clients.PKiClientID, existing_clients.sName as sClientName, existing_clients.sClientNumber, existing_clients.sContactPerson, existing_clients.sTelephone FROM users INNER JOIN existing_clients ON users.PKiUserID = existing_clients.FKiUserID WHERE existing_clients.FKiUserID IS NOT NULL AND existing_clients.bExcluded=0) as joined ON events.FKiExistingClientID=joined.PKiClientID, users WHERE events.sStatus = 'Active' AND users.PKiUserID = events.FKiUserAssignedID ORDER BY joined.PKiAssignedUser, joined.PKiClientID, events.dtCreated";
+                strQuery = "select MarketerUserID, EventAssignedUserID, ClientID, MarketerName, MarketerSurname, users.sName as AssignedName, users.sSurname as AssignedSurname, dtCreated, sMessage, sClientName, sClientNumber, sContactPerson, sTelephone from (select MarketerUserID, EventAssignedUserID, ClientID, users.sName as MarketerName, users.sSurname as MarketerSurname, dtCreated, sMessage, sClientName, sClientNumber, sContactPerson, sTelephone from (select MarketerUserID, EventAssignedUserID, existing_clients.PKiClientID as ClientID, dtCreated, sMessage, existing_clients.sName as sClientName, existing_clients.sClientNumber, existing_clients.sContactPerson, existing_clients.sTelephone from (select marketer_assignment.FKiUserID as MarketerUserID, events.FKiExistingClientID as EventClientID, events.FKiUserAssignedID as EventAssignedUserID, events.dtCreated, events.sMessage  from events inner join marketer_assignment on events.FKiExistingClientID = marketer_assignment.FKiClientID  WHERE events.sStatus = 'Active') MarketerEventJoin inner join existing_clients on MarketerEventJoin.EventClientID = existing_clients.PKiClientID WHERE existing_clients.bExcluded = 0) MarketerEventsClientsJoin inner join users on users.PKiUserId = MarketerUserID) FinalJoin inner join users on PKiUserID = EventAssignedUserID ORDER BY MarketerUserID, ClientID, dtCreated";
             else
-                strQuery = "SELECT joined.PKiAssignedUser, joined.sUserName, joined.sUserSurname, joined.PKiClientID, joined.sClientName, joined.sClientNumber, joined.sContactPerson, joined.sTelephone, events.FKsEventType as sEventType, events.sMessage, events.dtCreated, events.FKiUserAssignedID, users.sName as sAssignedUserName, users.sSurname as sAssignedUserSurname FROM events INNER JOIN ( SELECT users.PKiUserID as PKiAssignedUser, users.sName as sUserName, users.sSurname as sUserSurname, existing_clients.PKiClientID, existing_clients.sName as sClientName, existing_clients.sClientNumber, existing_clients.sContactPerson, existing_clients.sTelephone FROM users INNER JOIN existing_clients ON users.PKiUserID = existing_clients.FKiUserID WHERE existing_clients.FKiUserID = " + (string)Session["LoggedInUserID"] + " AND existing_clients.bExcluded=0) as joined ON events.FKiExistingClientID=joined.PKiClientID, users WHERE events.sStatus = 'Active' AND users.PKiUserID = events.FKiUserAssignedID ORDER BY joined.PKiAssignedUser, joined.PKiClientID, events.dtCreated";
+                strQuery = "select MarketerUserID, EventAssignedUserID, ClientID, MarketerName, MarketerSurname, users.sName as AssignedName, users.sSurname as AssignedSurname, dtCreated, sMessage, sClientName, sClientNumber, sContactPerson, sTelephone from (select MarketerUserID, EventAssignedUserID, ClientID, users.sName as MarketerName, users.sSurname as MarketerSurname, dtCreated, sMessage, sClientName, sClientNumber, sContactPerson, sTelephone from (select MarketerUserID, EventAssignedUserID, existing_clients.PKiClientID as ClientID, dtCreated, sMessage, existing_clients.sName as sClientName, existing_clients.sClientNumber, existing_clients.sContactPerson, existing_clients.sTelephone from (select marketer_assignment.FKiUserID as MarketerUserID, events.FKiExistingClientID as EventClientID, events.FKiUserAssignedID as EventAssignedUserID, events.dtCreated, events.sMessage  from events inner join marketer_assignment on events.FKiExistingClientID = marketer_assignment.FKiClientID  WHERE events.sStatus = 'Active' AND marketer_assignment.FKiUserID = '" + (string)Session["LoggedInUserID"] + "') MarketerEventJoin inner join existing_clients on MarketerEventJoin.EventClientID = existing_clients.PKiClientID WHERE existing_clients.bExcluded = 0) MarketerEventsClientsJoin inner join users on users.PKiUserId = MarketerUserID) FinalJoin inner join users on PKiUserID = EventAssignedUserID ORDER BY MarketerUserID, ClientID, dtCreated";
 
             SqlDataReader reader = Connect.getDataCommand(strQuery, oConn).ExecuteReader();
 
@@ -132,12 +139,12 @@ public partial class pages_assignmentlist : System.Web.UI.Page
             while (reader.Read())
             {
                 // Start new section
-                if ((int)reader["PKiAssignedUser"] != lastuserid)
+                if ((int)reader["MarketerUserID"] != lastuserid)
                 {
                    /* if (lastuserid != -1)
                         document.LastSection.AddPageBreak();*/
                     numclients = 0;
-                    lastuserid = (int)reader["PKiAssignedUser"];
+                    lastuserid = (int)reader["MarketerUserID"];
                     // Create a paragraph with centered page number. See definition of style "Footer".
                     Paragraph paragraph = new Paragraph();
                     paragraph.AddTab();
@@ -151,7 +158,7 @@ public partial class pages_assignmentlist : System.Web.UI.Page
                     section.Footers.Primary.Add(paragraph);
 
                     HeaderFooter header = section.Headers.Primary;
-                    header.AddParagraph(DateTime.Now.ToString() + "\t\t" + (string)reader["sUserName"] + " " + (string)reader["sUserSurname"] + " Task List");
+                    header.AddParagraph(DateTime.Now.ToString() + "\t\t" + (string)reader["MarketerName"] + " " + (string)reader["MarketerSurname"] + " Task List");
 
                     paragraph = section.AddParagraph();
                     paragraph.Format.Font.Name = "Arial";
@@ -159,7 +166,7 @@ public partial class pages_assignmentlist : System.Web.UI.Page
                     paragraph.Format.SpaceBefore = Unit.FromCentimeter(2);
                     paragraph.Format.SpaceAfter = Unit.FromCentimeter(2);
                     paragraph.Format.Alignment = ParagraphAlignment.Center;
-                    paragraph.AddText((string)reader["sUserName"] + " " + (string)reader["sUserSurname"] + " Task List\n");
+                    paragraph.AddText((string)reader["MarketerName"] + " " + (string)reader["MarketerSurname"] + " Task List\n");
                     Table table = section.AddTable();
                     table.Format.Alignment = ParagraphAlignment.Left;
                     Column column = table.AddColumn(Unit.FromCentimeter(1));
@@ -183,7 +190,7 @@ public partial class pages_assignmentlist : System.Web.UI.Page
 
                     numclients++;
                     numevents = 1;
-                    lastclientid = (int)reader["PKiClientID"];
+                    lastclientid = (int)reader["ClientID"];
                     AddClient(document, reader, numclients);
                     lastdate = (DateTime)reader["dtCreated"];
                     AddDate(document, reader);
@@ -192,9 +199,9 @@ public partial class pages_assignmentlist : System.Web.UI.Page
                 else // Continue in section
                 {
                     // New client
-                    if ((int)reader["PKiClientID"] != lastclientid)
+                    if ((int)reader["ClientID"] != lastclientid)
                     {
-                        lastclientid = (int)reader["PKiClientID"];
+                        lastclientid = (int)reader["ClientID"];
                         lastdate = (DateTime)reader["dtCreated"];
                         numclients++;
                         numevents = 1;
